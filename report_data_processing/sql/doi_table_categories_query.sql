@@ -12,7 +12,7 @@ doi_table AS (
 
 SELECT *
 
-FROM `academic-observatory.observatory.doi20210619` as a
+FROM `academic-observatory.observatory.doi20211002` as a
 
 LEFT JOIN doi_prefixes as b
 

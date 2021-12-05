@@ -194,7 +194,7 @@
 <pdf:nextpage>
 
 <p class="subtitle">TITLE</p>
-<p class="titlemeta"><br>DATE: 03 SEPTEMBER 2021
+<p class="titlemeta"><br>DATE: 05 DECEMBER 2021
 </p>
 
 
@@ -384,35 +384,35 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>All Time</td>
                 
-                    <td text-align=center>115392607</td>
+                    <td text-align=center>117308423</td>
                 
-                    <td text-align=center>12</td>
+                    <td text-align=center>13</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>6</td>
                 
                     <td text-align=center>10</td>
                 
-                    <td text-align=center>44</td>
+                    <td text-align=center>62</td>
                 
-                    <td text-align=center>46</td>
+                    <td text-align=center>47</td>
                 
                     <td text-align=center>47</td>
                 
                     <td text-align=center>42</td>
                 
-                    <td text-align=center>40</td>
+                    <td text-align=center>39</td>
                 
-                    <td text-align=center>71</td>
+                    <td text-align=center>70</td>
                 
-                    <td text-align=center>44</td>
+                    <td text-align=center>43</td>
                 
-                    <td text-align=center>69</td>
+                    <td text-align=center>68</td>
                 
-                    <td text-align=center>34</td>
+                    <td text-align=center>19</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>4</td>
                 
-                    <td text-align=center>31</td>
+                    <td text-align=center>27</td>
                 
                     <td text-align=center>6</td>
                 
@@ -426,35 +426,35 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>Crossref Current 2019-21</td>
                 
-                    <td text-align=center>15722579</td>
+                    <td text-align=center>17391660</td>
                 
                     <td text-align=center>20</td>
                 
+                    <td text-align=center>26</td>
+                
                     <td text-align=center>25</td>
                 
-                    <td text-align=center>24</td>
+                    <td text-align=center>49</td>
                 
-                    <td text-align=center>41</td>
-                
-                    <td text-align=center>24</td>
+                    <td text-align=center>29</td>
                 
                     <td text-align=center>52</td>
                 
                     <td text-align=center>47</td>
                 
-                    <td text-align=center>35</td>
+                    <td text-align=center>32</td>
                 
-                    <td text-align=center>54</td>
-                
-                    <td text-align=center>34</td>
-                
-                    <td text-align=center>68</td>
+                    <td text-align=center>49</td>
                 
                     <td text-align=center>32</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>62</td>
                 
-                    <td text-align=center>13</td>
+                    <td text-align=center>23</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>5</td>
                 
                     <td text-align=center>3</td>
                 
@@ -468,17 +468,17 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>2020 Only</td>
                 
-                    <td text-align=center>6825255</td>
+                    <td text-align=center>6884382</td>
                 
                     <td text-align=center>20</td>
                 
                     <td text-align=center>26</td>
                 
-                    <td text-align=center>25</td>
+                    <td text-align=center>26</td>
                 
-                    <td text-align=center>40</td>
+                    <td text-align=center>46</td>
                 
-                    <td text-align=center>22</td>
+                    <td text-align=center>30</td>
                 
                     <td text-align=center>52</td>
                 
@@ -486,17 +486,17 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>34</td>
                 
-                    <td text-align=center>53</td>
-                
-                    <td text-align=center>33</td>
-                
-                    <td text-align=center>68</td>
+                    <td text-align=center>52</td>
                 
                     <td text-align=center>32</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>67</td>
                 
-                    <td text-align=center>12</td>
+                    <td text-align=center>26</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>5</td>
                 
                     <td text-align=center>3</td>
                 
@@ -618,17 +618,17 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>journal-article</td>
                 
-                    <td text-align=center>88045628</td>
+                    <td text-align=center>89387747</td>
                 
                     <td text-align=center>14</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>7</td>
                 
                     <td text-align=center>12</td>
                 
-                    <td text-align=center>58</td>
+                    <td text-align=center>80</td>
                 
-                    <td text-align=center>54</td>
+                    <td text-align=center>55</td>
                 
                     <td text-align=center>51</td>
                 
@@ -636,21 +636,21 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>44</td>
                 
-                    <td text-align=center>76</td>
+                    <td text-align=center>75</td>
                 
-                    <td text-align=center>48</td>
+                    <td text-align=center>47</td>
                 
-                    <td text-align=center>76</td>
+                    <td text-align=center>75</td>
                 
-                    <td text-align=center>30</td>
+                    <td text-align=center>11</td>
                 
                     <td text-align=center>4</td>
                 
-                    <td text-align=center>36</td>
+                    <td text-align=center>30</td>
                 
                     <td text-align=center>7</td>
                 
-                    <td text-align=center>12</td>
+                    <td text-align=center>11</td>
                 
                     <td text-align=center>10</td>
                 
@@ -660,7 +660,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book-chapter</td>
                 
-                    <td text-align=center>14346512</td>
+                    <td text-align=center>14648704</td>
                 
                     <td text-align=center>1</td>
                 
@@ -670,25 +670,25 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>17</td>
+                    <td text-align=center>18</td>
                 
                     <td text-align=center>39</td>
                 
-                    <td text-align=center>39</td>
+                    <td text-align=center>38</td>
                 
                     <td text-align=center>24</td>
                 
-                    <td text-align=center>54</td>
+                    <td text-align=center>53</td>
                 
-                    <td text-align=center>27</td>
+                    <td text-align=center>26</td>
                 
-                    <td text-align=center>41</td>
+                    <td text-align=center>40</td>
                 
-                    <td text-align=center>41</td>
+                    <td text-align=center>40</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>4</td>
                 
-                    <td text-align=center>13</td>
+                    <td text-align=center>12</td>
                 
                     <td text-align=center>1</td>
                 
@@ -702,7 +702,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>proceedings-article</td>
                 
-                    <td text-align=center>5952018</td>
+                    <td text-align=center>6056966</td>
                 
                     <td text-align=center>15</td>
                 
@@ -712,31 +712,31 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>42</td>
+                    <td text-align=center>43</td>
                 
                     <td text-align=center>53</td>
                 
                     <td text-align=center>11</td>
                 
-                    <td text-align=center>60</td>
+                    <td text-align=center>58</td>
                 
-                    <td text-align=center>92</td>
+                    <td text-align=center>90</td>
                 
-                    <td text-align=center>70</td>
+                    <td text-align=center>69</td>
                 
-                    <td text-align=center>89</td>
+                    <td text-align=center>88</td>
                 
-                    <td text-align=center>89</td>
+                    <td text-align=center>88</td>
                 
-                    <td text-align=center>10</td>
+                    <td text-align=center>9</td>
                 
-                    <td text-align=center>36</td>
+                    <td text-align=center>34</td>
                 
                     <td text-align=center>12</td>
                 
-                    <td text-align=center>15</td>
+                    <td text-align=center>14</td>
                 
-                    <td text-align=center>51</td>
+                    <td text-align=center>50</td>
                 
             </tr>
         
@@ -744,17 +744,17 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>dataset</td>
                 
-                    <td text-align=center>1245754</td>
+                    <td text-align=center>1264421</td>
                 
-                    <td text-align=center>32</td>
+                    <td text-align=center>31</td>
                 
-                    <td text-align=center>13</td>
-                
-                    <td text-align=center>0</td>
+                    <td text-align=center>14</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>3</td>
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>7</td>
                 
@@ -786,7 +786,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book</td>
                 
-                    <td text-align=center>876701</td>
+                    <td text-align=center>893631</td>
                 
                     <td text-align=center>1</td>
                 
@@ -796,7 +796,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>48</td>
+                    <td text-align=center>50</td>
                 
                     <td text-align=center>0</td>
                 
@@ -808,13 +808,13 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>9</td>
                 
-                    <td text-align=center>32</td>
+                    <td text-align=center>28</td>
                 
-                    <td text-align=center>32</td>
+                    <td text-align=center>28</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>4</td>
                 
-                    <td text-align=center>20</td>
+                    <td text-align=center>18</td>
                 
                     <td text-align=center>2</td>
                 
@@ -828,7 +828,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>journal-issue</td>
                 
-                    <td text-align=center>843479</td>
+                    <td text-align=center>862966</td>
                 
                     <td text-align=center>0</td>
                 
@@ -836,7 +836,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>42</td>
+                    <td text-align=center>65</td>
                 
                     <td text-align=center>9</td>
                 
@@ -852,7 +852,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>1</td>
                 
-                    <td text-align=center>1</td>
+                    <td text-align=center>0</td>
                 
                     <td text-align=center>0</td>
                 
@@ -870,9 +870,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>reference-entry</td>
                 
-                    <td text-align=center>753154</td>
+                    <td text-align=center>748631</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>5</td>
                 
                     <td text-align=center>0</td>
                 
@@ -886,7 +886,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>39</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>5</td>
                 
                     <td text-align=center>11</td>
                 
@@ -912,39 +912,39 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>posted-content</td>
                 
-                    <td text-align=center>689001</td>
+                    <td text-align=center>740254</td>
                 
                     <td text-align=center>22</td>
                 
-                    <td text-align=center>51</td>
+                    <td text-align=center>52</td>
                 
                     <td text-align=center>76</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>13</td>
-                
-                    <td text-align=center>25</td>
-                
-                    <td text-align=center>25</td>
-                
                     <td text-align=center>15</td>
+                
+                    <td text-align=center>25</td>
+                
+                    <td text-align=center>25</td>
+                
+                    <td text-align=center>14</td>
                 
                     <td text-align=center>10</td>
                 
                     <td text-align=center>1</td>
                 
-                    <td text-align=center>29</td>
+                    <td text-align=center>28</td>
                 
-                    <td text-align=center>29</td>
+                    <td text-align=center>28</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>5</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>5</td>
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>2</td>
                 
@@ -954,13 +954,13 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>report</td>
                 
-                    <td text-align=center>661463</td>
+                    <td text-align=center>667868</td>
                 
                     <td text-align=center>10</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>0</td>
                 
@@ -972,15 +972,15 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>64</td>
+                    <td text-align=center>63</td>
                 
-                    <td text-align=center>39</td>
-                
-                    <td text-align=center>62</td>
+                    <td text-align=center>38</td>
                 
                     <td text-align=center>62</td>
                 
-                    <td text-align=center>9</td>
+                    <td text-align=center>62</td>
+                
+                    <td text-align=center>8</td>
                 
                     <td text-align=center>16</td>
                 
@@ -994,33 +994,117 @@ Crossref coverage in MAG by Pubdate
         
             <tr style="background-color: Gainsboro;">
                 
-                    <td text-align=center>other</td>
+                    <td text-align=center>monograph</td>
                 
-                    <td text-align=center>521800</td>
+                    <td text-align=center>519491</td>
+                
+                    <td text-align=center>2</td>
                 
                     <td text-align=center>1</td>
                 
                     <td text-align=center>2</td>
                 
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>40</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>38</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>22</td>
+                
+                    <td text-align=center>22</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>11</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>component</td>
+                
+                    <td text-align=center>512395</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>26</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>25</td>
+                
+                    <td text-align=center>25</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>other</td>
+                
+                    <td text-align=center>503285</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>3</td>
+                
                     <td text-align=center>6</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>9</td>
+                    <td text-align=center>11</td>
                 
-                    <td text-align=center>13</td>
+                    <td text-align=center>16</td>
                 
-                    <td text-align=center>13</td>
+                    <td text-align=center>15</td>
                 
-                    <td text-align=center>4</td>
+                    <td text-align=center>5</td>
                 
-                    <td text-align=center>20</td>
+                    <td text-align=center>22</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>20</td>
+                    <td text-align=center>22</td>
                 
-                    <td text-align=center>20</td>
+                    <td text-align=center>22</td>
                 
                     <td text-align=center>3</td>
                 
@@ -1036,55 +1120,55 @@ Crossref coverage in MAG by Pubdate
         
             <tr style="background-color: white;">
                 
-                    <td text-align=center>monograph</td>
+                    <td text-align=center>reference-book</td>
                 
-                    <td text-align=center>510453</td>
+                    <td text-align=center>221008</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>8</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>5</td>
+                
+                    <td text-align=center>5</td>
+                
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>2</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>2</td>
-                
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>39</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>39</td>
-                
-                    <td text-align=center>7</td>
-                
-                    <td text-align=center>25</td>
-                
-                    <td text-align=center>25</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>12</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
+                    <td text-align=center>0</td>
                 
             </tr>
         
             <tr style="background-color: Gainsboro;">
                 
-                    <td text-align=center>component</td>
+                    <td text-align=center>peer-review</td>
                 
-                    <td text-align=center>467412</td>
+                    <td text-align=center>187367</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>7</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>6</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1098,17 +1182,17 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>29</td>
+                    <td text-align=center>23</td>
                 
-                    <td text-align=center>1</td>
+                    <td text-align=center>0</td>
                 
-                    <td text-align=center>28</td>
+                    <td text-align=center>20</td>
                 
-                    <td text-align=center>28</td>
+                    <td text-align=center>20</td>
                 
-                    <td text-align=center>1</td>
+                    <td text-align=center>0</td>
                 
-                    <td text-align=center>1</td>
+                    <td text-align=center>0</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1122,7 +1206,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>proceedings</td>
                 
-                    <td text-align=center>49304</td>
+                    <td text-align=center>50688</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1132,7 +1216,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>8</td>
+                    <td text-align=center>9</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1164,9 +1248,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>report-series</td>
                 
-                    <td text-align=center>16461</td>
+                    <td text-align=center>16425</td>
                 
-                    <td text-align=center>4</td>
+                    <td text-align=center>3</td>
                 
                     <td text-align=center>1</td>
                 
@@ -1174,7 +1258,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>44</td>
+                    <td text-align=center>46</td>
                 
                     <td text-align=center>1</td>
                 
@@ -1186,13 +1270,13 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>36</td>
                 
-                    <td text-align=center>39</td>
+                    <td text-align=center>38</td>
                 
-                    <td text-align=center>39</td>
+                    <td text-align=center>38</td>
                 
-                    <td text-align=center>7</td>
+                    <td text-align=center>6</td>
                 
-                    <td text-align=center>24</td>
+                    <td text-align=center>23</td>
                 
                     <td text-align=center>16</td>
                 
@@ -1248,33 +1332,33 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book-part</td>
                 
-                    <td text-align=center>6153</td>
+                    <td text-align=center>6737</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>1</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>3</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>17</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>17</td>
+                
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>18</td>
                 
-                    <td text-align=center>18</td>
-                
                     <td text-align=center>1</td>
                 
-                    <td text-align=center>19</td>
+                    <td text-align=center>12</td>
                 
-                    <td text-align=center>1</td>
+                    <td text-align=center>12</td>
                 
-                    <td text-align=center>13</td>
-                
-                    <td text-align=center>13</td>
-                
-                    <td text-align=center>1</td>
+                    <td text-align=center>0</td>
                 
                     <td text-align=center>1</td>
                 
@@ -1290,7 +1374,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>standard</td>
                 
-                    <td text-align=center>1712</td>
+                    <td text-align=center>1703</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1300,9 +1384,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>10</td>
+                    <td text-align=center>11</td>
                 
-                    <td text-align=center>3</td>
+                    <td text-align=center>2</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1329,6 +1413,48 @@ Crossref coverage in MAG by Pubdate
             </tr>
         
             <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>proceedings-series</td>
+                
+                    <td text-align=center>1564</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>18</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
                 
                     <td text-align=center>book-track</td>
                 
@@ -1482,41 +1608,41 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>journal-article</td>
                 
-                    <td text-align=center>10896181</td>
+                    <td text-align=center>12075655</td>
                 
                     <td text-align=center>24</td>
                 
-                    <td text-align=center>33</td>
+                    <td text-align=center>34</td>
                 
-                    <td text-align=center>29</td>
+                    <td text-align=center>30</td>
                 
-                    <td text-align=center>58</td>
+                    <td text-align=center>70</td>
                 
-                    <td text-align=center>32</td>
+                    <td text-align=center>37</td>
                 
                     <td text-align=center>60</td>
                 
                     <td text-align=center>56</td>
                 
-                    <td text-align=center>42</td>
+                    <td text-align=center>38</td>
                 
-                    <td text-align=center>57</td>
+                    <td text-align=center>52</td>
                 
-                    <td text-align=center>41</td>
+                    <td text-align=center>37</td>
                 
-                    <td text-align=center>80</td>
+                    <td text-align=center>73</td>
                 
-                    <td text-align=center>28</td>
+                    <td text-align=center>17</td>
                 
-                    <td text-align=center>5</td>
-                
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>8</td>
+                    <td text-align=center>2</td>
                 
                     <td text-align=center>6</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>5</td>
                 
             </tr>
         
@@ -1524,35 +1650,35 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book-chapter</td>
                 
-                    <td text-align=center>2360731</td>
+                    <td text-align=center>2582614</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>3</td>
                 
                     <td text-align=center>5</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>5</td>
-                
-                    <td text-align=center>38</td>
-                
-                    <td text-align=center>38</td>
-                
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>47</td>
-                
-                    <td text-align=center>16</td>
+                    <td text-align=center>7</td>
                 
                     <td text-align=center>37</td>
                 
                     <td text-align=center>37</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>16</td>
                 
-                    <td text-align=center>4</td>
+                    <td text-align=center>44</td>
+                
+                    <td text-align=center>15</td>
+                
+                    <td text-align=center>34</td>
+                
+                    <td text-align=center>34</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>3</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1566,9 +1692,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>proceedings-article</td>
                 
-                    <td text-align=center>940480</td>
+                    <td text-align=center>1038303</td>
                 
-                    <td text-align=center>19</td>
+                    <td text-align=center>18</td>
                 
                     <td text-align=center>1</td>
                 
@@ -1576,31 +1702,31 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>15</td>
+                    <td text-align=center>19</td>
                 
-                    <td text-align=center>52</td>
+                    <td text-align=center>51</td>
                 
                     <td text-align=center>14</td>
                 
-                    <td text-align=center>47</td>
+                    <td text-align=center>43</td>
                 
-                    <td text-align=center>91</td>
+                    <td text-align=center>83</td>
                 
-                    <td text-align=center>58</td>
+                    <td text-align=center>54</td>
                 
-                    <td text-align=center>86</td>
+                    <td text-align=center>78</td>
                 
-                    <td text-align=center>86</td>
+                    <td text-align=center>78</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>9</td>
                 
                     <td text-align=center>8</td>
                 
-                    <td text-align=center>14</td>
-                
                     <td text-align=center>9</td>
                 
-                    <td text-align=center>9</td>
-                
-                    <td text-align=center>39</td>
+                    <td text-align=center>36</td>
                 
             </tr>
         
@@ -1608,7 +1734,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>posted-content</td>
                 
-                    <td text-align=center>479434</td>
+                    <td text-align=center>534824</td>
                 
                     <td text-align=center>29</td>
                 
@@ -1618,25 +1744,25 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
+                    <td text-align=center>12</td>
+                
+                    <td text-align=center>23</td>
+                
+                    <td text-align=center>23</td>
+                
+                    <td text-align=center>15</td>
+                
                     <td text-align=center>10</td>
-                
-                    <td text-align=center>24</td>
-                
-                    <td text-align=center>24</td>
-                
-                    <td text-align=center>17</td>
-                
-                    <td text-align=center>11</td>
                 
                     <td text-align=center>1</td>
                 
-                    <td text-align=center>35</td>
+                    <td text-align=center>32</td>
                 
-                    <td text-align=center>35</td>
+                    <td text-align=center>32</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>1</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>3</td>
                 
                     <td text-align=center>2</td>
                 
@@ -1647,56 +1773,14 @@ Crossref coverage in MAG by Pubdate
             </tr>
         
             <tr style="background-color: white;">
-                
-                    <td text-align=center>journal-issue</td>
-                
-                    <td text-align=center>143987</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>28</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-            </tr>
-        
-            <tr style="background-color: Gainsboro;">
                 
                     <td text-align=center>dataset</td>
                 
-                    <td text-align=center>143747</td>
+                    <td text-align=center>162263</td>
                 
-                    <td text-align=center>53</td>
+                    <td text-align=center>48</td>
                 
-                    <td text-align=center>12</td>
+                    <td text-align=center>13</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1710,7 +1794,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>7</td>
+                    <td text-align=center>5</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1721,48 +1805,6 @@ Crossref coverage in MAG by Pubdate
                     <td text-align=center>0</td>
                 
                     <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-            </tr>
-        
-            <tr style="background-color: white;">
-                
-                    <td text-align=center>other</td>
-                
-                    <td text-align=center>140678</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>8</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>29</td>
-                
-                    <td text-align=center>29</td>
-                
-                    <td text-align=center>6</td>
-                
-                    <td text-align=center>21</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>20</td>
-                
-                    <td text-align=center>20</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>2</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1774,37 +1816,37 @@ Crossref coverage in MAG by Pubdate
         
             <tr style="background-color: Gainsboro;">
                 
-                    <td text-align=center>reference-entry</td>
+                    <td text-align=center>journal-issue</td>
                 
-                    <td text-align=center>139398</td>
+                    <td text-align=center>160570</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>37</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>1</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>11</td>
-                
                     <td text-align=center>0</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>75</td>
-                
-                    <td text-align=center>75</td>
-                
-                    <td text-align=center>5</td>
-                
-                    <td text-align=center>8</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>7</td>
-                
-                    <td text-align=center>7</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1818,119 +1860,35 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book</td>
                 
-                    <td text-align=center>131210</td>
+                    <td text-align=center>143892</td>
                 
                     <td text-align=center>1</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>8</td>
+                    <td text-align=center>9</td>
                 
                     <td text-align=center>0</td>
-                
-                    <td text-align=center>18</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>30</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-            </tr>
-        
-            <tr style="background-color: Gainsboro;">
-                
-                    <td text-align=center>component</td>
-                
-                    <td text-align=center>105184</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>1</td>
                 
                     <td text-align=center>22</td>
                 
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>21</td>
-                
-                    <td text-align=center>21</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-            </tr>
-        
-            <tr style="background-color: white;">
-                
-                    <td text-align=center>monograph</td>
-                
-                    <td text-align=center>57742</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>8</td>
+                    <td text-align=center>0</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>17</td>
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>28</td>
                 
                     <td text-align=center>4</td>
                 
-                    <td text-align=center>4</td>
+                    <td text-align=center>14</td>
                 
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>40</td>
-                
-                    <td text-align=center>7</td>
-                
-                    <td text-align=center>20</td>
-                
-                    <td text-align=center>20</td>
+                    <td text-align=center>14</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>4</td>
+                    <td text-align=center>3</td>
                 
                     <td text-align=center>1</td>
                 
@@ -1942,51 +1900,261 @@ Crossref coverage in MAG by Pubdate
         
             <tr style="background-color: Gainsboro;">
                 
-                    <td text-align=center>report</td>
+                    <td text-align=center>peer-review</td>
                 
-                    <td text-align=center>39091</td>
-                
-                    <td text-align=center>25</td>
-                
-                    <td text-align=center>15</td>
-                
-                    <td text-align=center>6</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>10</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>53</td>
-                
-                    <td text-align=center>12</td>
-                
-                    <td text-align=center>53</td>
-                
-                    <td text-align=center>53</td>
-                
-                    <td text-align=center>3</td>
+                    <td text-align=center>142745</td>
                 
                     <td text-align=center>5</td>
                 
                     <td text-align=center>4</td>
                 
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>23</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>reference-entry</td>
+                
+                    <td text-align=center>141390</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>11</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>74</td>
+                
+                    <td text-align=center>74</td>
+                
+                    <td text-align=center>5</td>
+                
+                    <td text-align=center>8</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>other</td>
+                
+                    <td text-align=center>140975</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>9</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>32</td>
+                
+                    <td text-align=center>31</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>22</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>component</td>
+                
+                    <td text-align=center>136649</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>17</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>16</td>
+                
+                    <td text-align=center>16</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>monograph</td>
+                
+                    <td text-align=center>64134</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>9</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>21</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>36</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>18</td>
+                
+                    <td text-align=center>18</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>report</td>
+                
+                    <td text-align=center>42797</td>
+                
+                    <td text-align=center>25</td>
+                
+                    <td text-align=center>16</td>
+                
+                    <td text-align=center>8</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>13</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>49</td>
+                
+                    <td text-align=center>11</td>
+                
+                    <td text-align=center>49</td>
+                
+                    <td text-align=center>49</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>4</td>
+                
                     <td text-align=center>4</td>
                 
                     <td text-align=center>4</td>
                 
             </tr>
         
-            <tr style="background-color: white;">
+            <tr style="background-color: Gainsboro;">
                 
                     <td text-align=center>proceedings</td>
                 
-                    <td text-align=center>8445</td>
+                    <td text-align=center>9539</td>
                 
                     <td text-align=center>0</td>
                 
@@ -1996,7 +2164,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>3</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2021,6 +2189,48 @@ Crossref coverage in MAG by Pubdate
                     <td text-align=center>0</td>
                 
                     <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>reference-book</td>
+                
+                    <td text-align=center>5403</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>17</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>56</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>50</td>
+                
+                    <td text-align=center>50</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>9</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
                 
             </tr>
         
@@ -2028,39 +2238,39 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book-part</td>
                 
-                    <td text-align=center>3826</td>
+                    <td text-align=center>4408</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>1</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>1</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>0</td>
                 
                     <td text-align=center>1</td>
                 
-                    <td text-align=center>16</td>
+                    <td text-align=center>15</td>
                 
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>17</td>
+                    <td text-align=center>14</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>12</td>
-                
-                    <td text-align=center>12</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
+                    <td text-align=center>15</td>
                 
                     <td text-align=center>1</td>
+                
+                    <td text-align=center>10</td>
+                
+                    <td text-align=center>10</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2070,9 +2280,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>report-series</td>
                 
-                    <td text-align=center>2485</td>
+                    <td text-align=center>2753</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>5</td>
                 
@@ -2080,31 +2290,31 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>16</td>
+                    <td text-align=center>22</td>
                 
                     <td text-align=center>4</td>
                 
                     <td text-align=center>4</td>
                 
-                    <td text-align=center>13</td>
+                    <td text-align=center>12</td>
                 
-                    <td text-align=center>48</td>
+                    <td text-align=center>43</td>
                 
-                    <td text-align=center>39</td>
+                    <td text-align=center>36</td>
                 
-                    <td text-align=center>46</td>
+                    <td text-align=center>42</td>
                 
-                    <td text-align=center>46</td>
+                    <td text-align=center>42</td>
                 
-                    <td text-align=center>7</td>
+                    <td text-align=center>5</td>
                 
-                    <td text-align=center>11</td>
+                    <td text-align=center>8</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>5</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>5</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>5</td>
                 
             </tr>
         
@@ -2122,7 +2332,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>3</td>
                 
                     <td text-align=center>19</td>
                 
@@ -2134,9 +2344,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>39</td>
+                    <td text-align=center>38</td>
                 
-                    <td text-align=center>39</td>
+                    <td text-align=center>38</td>
                 
                     <td text-align=center>2</td>
                 
@@ -2151,6 +2361,48 @@ Crossref coverage in MAG by Pubdate
             </tr>
         
             <tr style="background-color: white;">
+                
+                    <td text-align=center>proceedings-series</td>
+                
+                    <td text-align=center>361</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+            </tr>
+        
+            <tr style="background-color: Gainsboro;">
                 
                     <td text-align=center>book-track</td>
                 
@@ -2304,17 +2556,17 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>journal-article</td>
                 
-                    <td text-align=center>4598085</td>
+                    <td text-align=center>4632119</td>
                 
                     <td text-align=center>25</td>
                 
                     <td text-align=center>34</td>
                 
-                    <td text-align=center>31</td>
+                    <td text-align=center>32</td>
                 
-                    <td text-align=center>58</td>
+                    <td text-align=center>68</td>
                 
-                    <td text-align=center>31</td>
+                    <td text-align=center>40</td>
                 
                     <td text-align=center>60</td>
                 
@@ -2322,17 +2574,17 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>42</td>
                 
-                    <td text-align=center>58</td>
+                    <td text-align=center>57</td>
                 
                     <td text-align=center>40</td>
                 
-                    <td text-align=center>82</td>
+                    <td text-align=center>81</td>
                 
-                    <td text-align=center>29</td>
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>2</td>
                 
                     <td text-align=center>6</td>
-                
-                    <td text-align=center>16</td>
                 
                     <td text-align=center>4</td>
                 
@@ -2346,7 +2598,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book-chapter</td>
                 
-                    <td text-align=center>1033633</td>
+                    <td text-align=center>1041128</td>
                 
                     <td text-align=center>2</td>
                 
@@ -2356,7 +2608,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>4</td>
+                    <td text-align=center>6</td>
                 
                     <td text-align=center>38</td>
                 
@@ -2366,15 +2618,15 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>46</td>
                 
-                    <td text-align=center>15</td>
+                    <td text-align=center>16</td>
                 
-                    <td text-align=center>36</td>
+                    <td text-align=center>35</td>
                 
-                    <td text-align=center>36</td>
+                    <td text-align=center>35</td>
+                
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>2</td>
-                
-                    <td text-align=center>3</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2388,7 +2640,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>proceedings-article</td>
                 
-                    <td text-align=center>389113</td>
+                    <td text-align=center>395636</td>
                 
                     <td text-align=center>20</td>
                 
@@ -2398,7 +2650,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>8</td>
+                    <td text-align=center>15</td>
                 
                     <td text-align=center>50</td>
                 
@@ -2406,23 +2658,23 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>47</td>
                 
-                    <td text-align=center>92</td>
+                    <td text-align=center>91</td>
                 
-                    <td text-align=center>59</td>
+                    <td text-align=center>58</td>
                 
-                    <td text-align=center>86</td>
+                    <td text-align=center>85</td>
                 
-                    <td text-align=center>86</td>
+                    <td text-align=center>85</td>
+                
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>7</td>
                 
-                    <td text-align=center>10</td>
-                
                     <td text-align=center>11</td>
                 
                     <td text-align=center>11</td>
                 
-                    <td text-align=center>41</td>
+                    <td text-align=center>40</td>
                 
             </tr>
         
@@ -2430,7 +2682,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>posted-content</td>
                 
-                    <td text-align=center>242947</td>
+                    <td text-align=center>242720</td>
                 
                     <td text-align=center>33</td>
                 
@@ -2440,11 +2692,11 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>11</td>
+                    <td text-align=center>15</td>
                 
-                    <td text-align=center>23</td>
+                    <td text-align=center>24</td>
                 
-                    <td text-align=center>23</td>
+                    <td text-align=center>24</td>
                 
                     <td text-align=center>18</td>
                 
@@ -2456,13 +2708,13 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>36</td>
                 
-                    <td text-align=center>3</td>
+                    <td text-align=center>2</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>2</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>5</td>
                 
                     <td text-align=center>2</td>
                 
@@ -2472,7 +2724,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>reference-entry</td>
                 
-                    <td text-align=center>124256</td>
+                    <td text-align=center>124312</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2514,11 +2766,11 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>dataset</td>
                 
-                    <td text-align=center>79781</td>
+                    <td text-align=center>81043</td>
                 
                     <td text-align=center>66</td>
                 
-                    <td text-align=center>8</td>
+                    <td text-align=center>10</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2532,7 +2784,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2554,51 +2806,19 @@ Crossref coverage in MAG by Pubdate
         
             <tr style="background-color: white;">
                 
-                    <td text-align=center>other</td>
+                    <td text-align=center>peer-review</td>
                 
-                    <td text-align=center>70841</td>
+                    <td text-align=center>78793</td>
                 
-                    <td text-align=center>1</td>
+                    <td text-align=center>4</td>
                 
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>7</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>36</td>
-                
-                    <td text-align=center>35</td>
-                
-                    <td text-align=center>6</td>
-                
-                    <td text-align=center>23</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>22</td>
-                
-                    <td text-align=center>22</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>0</td>
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>0</td>
-                
-            </tr>
-        
-            <tr style="background-color: Gainsboro;">
-                
-                    <td text-align=center>journal-issue</td>
-                
-                    <td text-align=center>61157</td>
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2608,7 +2828,81 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>26</td>
                 
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>23</td>
+                
+                    <td text-align=center>23</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>other</td>
+                
+                    <td text-align=center>69401</td>
+                
                     <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>36</td>
+                
+                    <td text-align=center>36</td>
+                
+                    <td text-align=center>6</td>
+                
+                    <td text-align=center>24</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>22</td>
+                
+                    <td text-align=center>22</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>journal-issue</td>
+                
+                    <td text-align=center>63029</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>34</td>
+                
+                    <td text-align=center>2</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2636,17 +2930,227 @@ Crossref coverage in MAG by Pubdate
                 
             </tr>
         
-            <tr style="background-color: white;">
+            <tr style="background-color: Gainsboro;">
                 
                     <td text-align=center>book</td>
                 
-                    <td text-align=center>56519</td>
+                    <td text-align=center>57320</td>
                 
                     <td text-align=center>1</td>
                 
                     <td text-align=center>2</td>
                 
+                    <td text-align=center>10</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>21</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>31</td>
+                
+                    <td text-align=center>5</td>
+                
+                    <td text-align=center>15</td>
+                
+                    <td text-align=center>15</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>component</td>
+                
+                    <td text-align=center>46830</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>21</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>monograph</td>
+                
+                    <td text-align=center>25151</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>3</td>
+                
                     <td text-align=center>9</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>20</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>41</td>
+                
+                    <td text-align=center>9</td>
+                
+                    <td text-align=center>18</td>
+                
+                    <td text-align=center>18</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>report</td>
+                
+                    <td text-align=center>16501</td>
+                
+                    <td text-align=center>25</td>
+                
+                    <td text-align=center>16</td>
+                
+                    <td text-align=center>8</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>15</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>56</td>
+                
+                    <td text-align=center>13</td>
+                
+                    <td text-align=center>57</td>
+                
+                    <td text-align=center>57</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>4</td>
+                
+            </tr>
+        
+            <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>proceedings</td>
+                
+                    <td text-align=center>3739</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
+                
+                    <td text-align=center>reference-book</td>
+                
+                    <td text-align=center>2670</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
                 
                     <td text-align=center>0</td>
                 
@@ -2656,193 +3160,25 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>32</td>
-                
                     <td text-align=center>5</td>
                 
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-            </tr>
-        
-            <tr style="background-color: Gainsboro;">
-                
-                    <td text-align=center>component</td>
-                
-                    <td text-align=center>41014</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>24</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>23</td>
-                
-                    <td text-align=center>23</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-            </tr>
-        
-            <tr style="background-color: white;">
-                
-                    <td text-align=center>monograph</td>
-                
-                    <td text-align=center>24507</td>
-                
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>8</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>13</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>42</td>
+                    <td text-align=center>53</td>
                 
                     <td text-align=center>9</td>
                 
-                    <td text-align=center>19</td>
+                    <td text-align=center>49</td>
                 
-                    <td text-align=center>19</td>
+                    <td text-align=center>49</td>
                 
-                    <td text-align=center>2</td>
+                    <td text-align=center>9</td>
                 
-                    <td text-align=center>3</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-            </tr>
-        
-            <tr style="background-color: Gainsboro;">
-                
-                    <td text-align=center>report</td>
-                
-                    <td text-align=center>16240</td>
-                
-                    <td text-align=center>25</td>
-                
-                    <td text-align=center>16</td>
-                
-                    <td text-align=center>7</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>11</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>57</td>
-                
-                    <td text-align=center>13</td>
-                
-                    <td text-align=center>58</td>
-                
-                    <td text-align=center>58</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>5</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>4</td>
-                
-                    <td text-align=center>4</td>
-                
-            </tr>
-        
-            <tr style="background-color: white;">
-                
-                    <td text-align=center>proceedings</td>
-                
-                    <td text-align=center>3644</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>2</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>1</td>
-                
-                    <td text-align=center>2</td>
+                    <td text-align=center>10</td>
                 
                     <td text-align=center>1</td>
                 
                     <td text-align=center>1</td>
                 
                     <td text-align=center>1</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
-                
-                    <td text-align=center>0</td>
                 
             </tr>
         
@@ -2850,7 +3186,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>book-part</td>
                 
-                    <td text-align=center>1826</td>
+                    <td text-align=center>1834</td>
                 
                     <td text-align=center>1</td>
                 
@@ -2860,9 +3196,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>0</td>
+                    <td text-align=center>1</td>
                 
-                    <td text-align=center>21</td>
+                    <td text-align=center>22</td>
                 
                     <td text-align=center>21</td>
                 
@@ -2892,9 +3228,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>report-series</td>
                 
-                    <td text-align=center>1164</td>
+                    <td text-align=center>1166</td>
                 
-                    <td text-align=center>5</td>
+                    <td text-align=center>4</td>
                 
                     <td text-align=center>5</td>
                 
@@ -2902,7 +3238,7 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>0</td>
                 
-                    <td text-align=center>14</td>
+                    <td text-align=center>23</td>
                 
                     <td text-align=center>4</td>
                 
@@ -2918,9 +3254,9 @@ Crossref coverage in MAG by Pubdate
                 
                     <td text-align=center>39</td>
                 
-                    <td text-align=center>6</td>
+                    <td text-align=center>5</td>
                 
-                    <td text-align=center>9</td>
+                    <td text-align=center>7</td>
                 
                     <td text-align=center>3</td>
                 
@@ -2931,6 +3267,48 @@ Crossref coverage in MAG by Pubdate
             </tr>
         
             <tr style="background-color: Gainsboro;">
+                
+                    <td text-align=center>proceedings-series</td>
+                
+                    <td text-align=center>144</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>1</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>5</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>3</td>
+                
+                    <td text-align=center>7</td>
+                
+                    <td text-align=center>2</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>4</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+                    <td text-align=center>0</td>
+                
+            </tr>
+        
+            <tr style="background-color: white;">
                 
                     <td text-align=center>book-section</td>
                 
@@ -2972,7 +3350,7 @@ Crossref coverage in MAG by Pubdate
                 
             </tr>
         
-            <tr style="background-color: white;">
+            <tr style="background-color: Gainsboro;">
                 
                     <td text-align=center>book-track</td>
                 
