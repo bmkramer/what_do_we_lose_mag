@@ -26,7 +26,7 @@ from typing import Optional, Callable, Union
 from observatory.reports import report_utils
 from precipy.analytics_function import AnalyticsFunction
 from report_data_processing.sql import (
-    doi_table_categories_query, mag_table_categories_query
+    doi_table_categories_query, openalex_table_categories_query
 )
 from report_graphs import (
     Alluvial, OverallCoverage, BarLine, ValueAddBar, ValueAddByCrossrefType, ValueAddByCrossrefTypeHorizontal,
@@ -34,7 +34,7 @@ from report_graphs import (
 )
 
 PROJECT_ID = 'utrecht-university'
-MAG_DATA_FILENAME = 'mag_table_data_store.hd5'
+OPENALEX_DATA_FILENAME = 'openalex_table_data_store.hd5'
 CR_DATA_FILENAME = 'doi_table_data_store.hd5'
 
 CURRENT = [2019, 2020, 2021]
@@ -51,14 +51,14 @@ def get_doi_table_data(af: AnalyticsFunction):
     af.add_existing_file(CR_DATA_FILENAME)
 
 
-def get_mag_table_data(af: AnalyticsFunction):
-    mag_categories = pd.read_gbq(query=mag_table_categories_query,
+def get_openalex_table_data(af: AnalyticsFunction):
+    openalex_categories = pd.read_gbq(query=openalex_table_categories_query,
                                  project_id=PROJECT_ID)
 
-    with pd.HDFStore(MAG_DATA_FILENAME) as store:
-        store['mag_categories'] = mag_categories
+    with pd.HDFStore(OPENALEX_DATA_FILENAME) as store:
+        store['openalex_categories'] = openalex_categories
 
-    af.add_existing_file(MAG_DATA_FILENAME)
+    af.add_existing_file(OPENALEX_DATA_FILENAME)
 
 
 def load_cache_data(af: AnalyticsFunction,
@@ -92,13 +92,13 @@ def load_cache_data(af: AnalyticsFunction,
     return df
 
 
-def mag_coverage_table(af: AnalyticsFunction):
-    mag_data = load_cache_data(af,
-                               function_name=get_mag_table_data,
-                               element='mag_categories',
-                               filename=MAG_DATA_FILENAME)
+def openalex_coverage_table(af: AnalyticsFunction):
+    openalex_data = load_cache_data(af,
+                               function_name=get_openalex_table_data,
+                               element='openalex_categories',
+                               filename=OPENALEX_DATA_FILENAME)
 
-    table_data = mag_data.groupby('mag_type').agg(
+    table_data = openalex_data.groupby('mag_type').agg(
         mag_doctype=pd.NamedAgg(column='mag_type', aggfunc='first'),
         num_magids=pd.NamedAgg(column='num_objects', aggfunc='sum'),
         num_dois=pd.NamedAgg(column='num_dois', aggfunc='sum')
@@ -440,9 +440,9 @@ def overall_comparison(af: AnalyticsFunction):
     cr_sum_current = cr_data[cr_data.published_year.isin(CURRENT)].sum(axis=0)
 
     mag_data = load_cache_data(af,
-                               function_name=get_mag_table_data,
-                               element='mag_categories',
-                               filename=MAG_DATA_FILENAME)
+                               function_name=get_openalex_table_data,
+                               element='openalex_categories',
+                               filename=OPENALEX_DATA_FILENAME)
 
     mag_sum_all = mag_data.sum(axis=0)
     mag_sum_2020 = mag_data[mag_data.Year == 2020].sum(axis=0)
@@ -482,9 +482,9 @@ def mag_in_crossref_by_pubdate(af):
                               filename=CR_DATA_FILENAME)
 
     mag_data = load_cache_data(af,
-                               function_name=get_mag_table_data,
-                               element='mag_categories',
-                               filename=MAG_DATA_FILENAME)
+                               function_name=get_openalex_table_data,
+                               element='openalex_categories',
+                               filename=OPENALEX_DATA_FILENAME)
 
     year_range = range(1980, 2022)
 

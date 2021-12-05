@@ -51,5 +51,5 @@ doi_table_categories_query = load_sql_to_string("doi_table_categories_query.sql"
                                                 directory=SQL_DIRECTORY)
 
 # MAG non-DOI Metadata Quality
-mag_table_categories_query = load_sql_to_string("openalex_table_categories_query.sql",
+openalex_table_categories_query = load_sql_to_string("openalex_table_categories_query.sql",
                                                 directory=SQL_DIRECTORY)

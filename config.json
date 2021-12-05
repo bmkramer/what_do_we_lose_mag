@@ -16,7 +16,7 @@
       }
     ],
     [
-      "get_mag_table_data",
+      "get_openalex_table_data",
       {
       }
     ],
@@ -41,14 +41,14 @@
     [
       "overall_comparison",
       {
-        "depends": ["get_doi_table_data", "get_mag_table_data"]
+        "depends": ["get_doi_table_data", "get_openalex_table_data"]
       }
     ]
     ,
     [
       "mag_in_crossref_by_pubdate",
       {
-        "depends": ["get_doi_table_data", "get_mag_table_data"]
+        "depends": ["get_doi_table_data", "get_openalex_table_data"]
       }
     ]
   ],
