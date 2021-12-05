@@ -54,7 +54,7 @@ WITH truth_table AS (
 
 SELECT
     Year,
-    DocType as mag_type,
+    DocType as openalex_type,
     field,
     COUNTIF(Doi is not null) as num_dois,
     COUNTIF(has_affiliation_id and Doi is not null) as dois_with_affiliation_ids,
@@ -77,5 +77,5 @@ SELECT
     COUNTIF(doi_not_canonical_family) as doi_not_canonical_family
 
 FROM truth_table
-GROUP BY Year, mag_type, field
-ORDER BY Year DESC, mag_type ASC, field ASC
+GROUP BY Year, openalex_type, field
+ORDER BY Year DESC, openalex_type ASC, field ASC

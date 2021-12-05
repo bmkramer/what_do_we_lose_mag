@@ -98,26 +98,26 @@ def openalex_coverage_table(af: AnalyticsFunction):
                                element='openalex_categories',
                                filename=OPENALEX_DATA_FILENAME)
 
-    table_data = openalex_data.groupby('mag_type').agg(
-        mag_doctype=pd.NamedAgg(column='mag_type', aggfunc='first'),
-        num_magids=pd.NamedAgg(column='num_objects', aggfunc='sum'),
+    table_data = openalex_data.groupby('openalex_type').agg(
+        openalex_doctype=pd.NamedAgg(column='openalex_type', aggfunc='first'),
+        num_openalexids=pd.NamedAgg(column='num_objects', aggfunc='sum'),
         num_dois=pd.NamedAgg(column='num_dois', aggfunc='sum')
     )
 
     table_data['pc_dois'] = np.round((table_data.num_magids / table_data.num_dois * 100), 1)
 
     mag_coverage = report_utils.generate_table_data(
-        f"Coverage of DOIs in MAG - All Time",
+        f"Coverage of DOIs in OpenAlex - All Time",
         table_data,
         identifier=None,
         columns=table_data.columns,
-        short_column_names=['MAG Doctype', 'Object Count', 'DOIs', 'MAG Records with DOIs (%)'],
+        short_column_names=['OpenAlex Doctype', 'Object Count', 'DOIs', 'OpenAlex Records with DOIs (%)'],
         sort_column='Object Count')
-    for f in af.generate_file('mag_coverage_table.json'):
-        json.dump(mag_coverage_table, f)
+    for f in af.generate_file('openalex_coverage_table.json'):
+        json.dump(openalex_coverage_table, f)
 
-    table_data.to_csv('mag_coverage.csv')
-    af.add_existing_file('mag_coverage.csv')
+    table_data.to_csv('openalex_coverage.csv')
+    af.add_existing_file('openalex_coverage.csv')
 
 
 def value_add_tables_graphs(af: AnalyticsFunction):
