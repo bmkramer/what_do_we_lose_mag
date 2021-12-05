@@ -49,7 +49,7 @@ WITH truth_table AS (
         END
         as doi_not_canonical_family
 
-    FROM `utrecht-university.MAG.MAG_all_papers_20211011`
+    FROM `utrecht-university.OpenAlex_intermediate.OpenAlex_all_papers_20211011`
 )
 
 SELECT

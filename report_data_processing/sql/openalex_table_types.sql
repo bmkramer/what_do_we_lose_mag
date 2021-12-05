@@ -6,7 +6,7 @@ SELECT
         ELSE FALSE
       END
         as has_doi
-FROM `academic-observatory.mag.Papers20211011`
+FROM `academic-observatory.OpenAlex.Papers20211011`
 )
 
 SELECT
