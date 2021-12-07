@@ -47550,3 +47550,1147 @@
 2021-12-07 13:56:04,640 DEBUG    copying supp file cr_in_openalex_barline.html
 2021-12-07 13:56:04,652 DEBUG  copying output to local output directory output_files
 2021-12-07 13:56:04,652 DEBUG    can't remove old output_files
+2021-12-07 22:37:05,668 INFO   
+2021-12-07 22:37:05,668 INFO   ***** BEGIN LOGGING BATCH 1c61a4f1-dd75-4aac-8a6d-b5c9e5342c77
+2021-12-07 22:37:05,669 INFO   
+2021-12-07 22:37:05,669 DEBUG  Config:
+2021-12-07 22:37:05,669 DEBUG  cache_bucket_name: 'output_cache'
+2021-12-07 22:37:05,669 DEBUG  output_bucket_name: 'output_files'
+2021-12-07 22:37:05,669 DEBUG  logfile: 'logs/precipy.log'
+2021-12-07 22:37:05,669 DEBUG  loglevel: 'DEBUG'
+2021-12-07 22:37:05,670 DEBUG  constants: {'PROJECT_ID': 'utrecht-university', 'YEAR_RANGE': [1980, 2026]}
+2021-12-07 22:37:05,670 DEBUG  ranges: {}
+2021-12-07 22:37:05,670 DEBUG  analytics: [['get_doi_table_data', {}], ['get_openalex_table_data', {}], ['value_add_tables_graphs', {'depends': ['get_doi_table_data']}], ['alluvial_graph', {'depends': ['get_doi_table_data']}], ['openalex_coverage_by_cr_type', {'depends': ['get_doi_table_data']}], ['overall_comparison', {'depends': ['get_doi_table_data', 'get_openalex_table_data']}], ['openalex_in_crossref_by_pubdate', {'depends': ['get_doi_table_data', 'get_openalex_table_data']}]]
+2021-12-07 22:37:05,670 DEBUG  templates: ['report_template.md']
+2021-12-07 22:37:05,670 DEBUG  filters: [['markdown', 'html'], ['xhtml2pdf', 'pdf']]
+2021-12-07 22:37:05,670 DEBUG  opts: None
+2021-12-07 22:37:05,673 DEBUG  returning bool False from is_opt_reset
+2021-12-07 22:37:05,674 INFO   tempdir is C:\Users\Krame117\AppData\Local\Temp\precipy
+2021-12-07 22:37:05,678 DEBUG  in setup_document_templates
+2021-12-07 22:37:05,678 INFO   collecting list of document templates to process...
+2021-12-07 22:37:05,678 INFO   looking for templates specified under config key 'templates'
+2021-12-07 22:37:05,678 INFO     found template(s): report_template.md
+2021-12-07 22:37:05,678 INFO   looking for templates specified under config key 'template_file'
+2021-12-07 22:37:05,678 INFO   looking for templates specified under config key 'template_files'
+2021-12-07 22:37:05,679 DEBUG  
+2021-12-07 22:37:05,679 DEBUG  now processing range env {}
+2021-12-07 22:37:05,679 DEBUG  range key is 
+2021-12-07 22:37:05,679 DEBUG  
+2021-12-07 22:37:05,679 DEBUG  ***** ANALYTICS
+2021-12-07 22:37:05,679 DEBUG  
+2021-12-07 22:37:05,679 DEBUG  in generate_analytics with available modules:
+2021-12-07 22:37:05,680 DEBUG       <module 'process' from 'C:\\Users\\Krame117\\Desktop\\Python_scripts\\what_do_we_lose_mag\\process.py'>
+2021-12-07 22:37:05,680 INFO   matched 'get_doi_table_data' to fn <function get_doi_table_data at 0x0000020A5B974550>
+2021-12-07 22:37:05,738 DEBUG  
+2021-12-07 22:37:05,739 DEBUG  computing hash for dict from:
+2021-12-07 22:37:05,739 DEBUG    analytics_function_source: 7584887489e0324cd352225ee44926e3
+2021-12-07 22:37:05,739 DEBUG    arg_values:
+2021-12-07 22:37:05,739 DEBUG    batch_source: 2d99d96426374319ae7663f516fb26db
+2021-12-07 22:37:05,739 DEBUG    canonical_function_name: get_doi_table_data
+2021-12-07 22:37:05,739 DEBUG    depends: None
+2021-12-07 22:37:05,739 DEBUG    fn_source: f724317b9834fde8b654ddc80bcdac05
+2021-12-07 22:37:05,740 DEBUG  a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:05,740 DEBUG  
+2021-12-07 22:37:05,740 DEBUG  calculated hash for get_doi_table_data is a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:05,742 DEBUG  checking for cached metadata from a prior run
+2021-12-07 22:37:05,743 DEBUG    in C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\a1\a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138.pkl
+2021-12-07 22:37:05,745 DEBUG      not found, checking remote storages...
+2021-12-07 22:37:05,746 DEBUG  in download_from_storages for C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\a1\a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138.pkl
+2021-12-07 22:37:05,746 DEBUG      not found
+2021-12-07 22:37:05,747 DEBUG  cached metadata not found locally or remotely, running the function
+2021-12-07 22:37:31,054 DEBUG  
+2021-12-07 22:37:31,054 DEBUG  computing hash for dict from:
+2021-12-07 22:37:31,054 DEBUG    filename: doi_table_data_store.hd5
+2021-12-07 22:37:31,054 DEBUG    fn_hash: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:31,054 DEBUG  f1b75e4b21522377023dc08efc660c01bc79ca1fb23cf864179700a6bcd28982
+2021-12-07 22:37:31,054 DEBUG  
+2021-12-07 22:37:31,074 DEBUG  
+2021-12-07 22:37:31,074 DEBUG  computing hash for dict from:
+2021-12-07 22:37:31,074 DEBUG    filename: doi_table_data_store.hd5
+2021-12-07 22:37:31,074 DEBUG    fn_hash: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:31,074 DEBUG  f1b75e4b21522377023dc08efc660c01bc79ca1fb23cf864179700a6bcd28982
+2021-12-07 22:37:31,074 DEBUG  
+2021-12-07 22:37:31,074 DEBUG  
+2021-12-07 22:37:31,074 DEBUG  computing hash for dict from:
+2021-12-07 22:37:31,074 DEBUG    filename: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:31,074 DEBUG    fn_hash: doi_table_data_store.hd5
+2021-12-07 22:37:31,074 DEBUG  4e5e0dcc1f180836283441a451e2903c186f5b936a97d7427d3ef4f33695ec80
+2021-12-07 22:37:31,074 DEBUG  
+2021-12-07 22:37:31,074 DEBUG    saving metadata to C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\a1\a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138.pkl
+2021-12-07 22:37:31,083 DEBUG    run function complete
+2021-12-07 22:37:31,083 INFO   matched 'get_openalex_table_data' to fn <function get_openalex_table_data at 0x0000020A7D7E8CA0>
+2021-12-07 22:37:31,085 DEBUG  
+2021-12-07 22:37:31,085 DEBUG  computing hash for dict from:
+2021-12-07 22:37:31,085 DEBUG    analytics_function_source: 7584887489e0324cd352225ee44926e3
+2021-12-07 22:37:31,085 DEBUG    arg_values:
+2021-12-07 22:37:31,085 DEBUG    batch_source: 2d99d96426374319ae7663f516fb26db
+2021-12-07 22:37:31,085 DEBUG    canonical_function_name: get_openalex_table_data
+2021-12-07 22:37:31,085 DEBUG    depends: None
+2021-12-07 22:37:31,085 DEBUG    fn_source: c29e4c04c64ec356a2ba29829ab6cb3b
+2021-12-07 22:37:31,085 DEBUG  278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358
+2021-12-07 22:37:31,085 DEBUG  
+2021-12-07 22:37:31,085 DEBUG  calculated hash for get_openalex_table_data is 278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358
+2021-12-07 22:37:31,085 DEBUG  checking for cached metadata from a prior run
+2021-12-07 22:37:31,085 DEBUG    in C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\27\278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358.pkl
+2021-12-07 22:37:31,093 DEBUG      not found, checking remote storages...
+2021-12-07 22:37:31,095 DEBUG  in download_from_storages for C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\27\278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358.pkl
+2021-12-07 22:37:31,095 DEBUG      not found
+2021-12-07 22:37:31,095 DEBUG  cached metadata not found locally or remotely, running the function
+2021-12-07 22:37:38,780 DEBUG  
+2021-12-07 22:37:38,780 DEBUG  computing hash for dict from:
+2021-12-07 22:37:38,780 DEBUG    filename: openalex_table_data_store.hd5
+2021-12-07 22:37:38,780 DEBUG    fn_hash: 278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358
+2021-12-07 22:37:38,780 DEBUG  c7272d99ff6bee4a0ca28490fb19d96f6a67232cd57a01dcd63be7988f5dc944
+2021-12-07 22:37:38,780 DEBUG  
+2021-12-07 22:37:38,792 DEBUG  
+2021-12-07 22:37:38,792 DEBUG  computing hash for dict from:
+2021-12-07 22:37:38,792 DEBUG    filename: openalex_table_data_store.hd5
+2021-12-07 22:37:38,792 DEBUG    fn_hash: 278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358
+2021-12-07 22:37:38,792 DEBUG  c7272d99ff6bee4a0ca28490fb19d96f6a67232cd57a01dcd63be7988f5dc944
+2021-12-07 22:37:38,792 DEBUG  
+2021-12-07 22:37:38,792 DEBUG  
+2021-12-07 22:37:38,792 DEBUG  computing hash for dict from:
+2021-12-07 22:37:38,792 DEBUG    filename: 278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358
+2021-12-07 22:37:38,792 DEBUG    fn_hash: openalex_table_data_store.hd5
+2021-12-07 22:37:38,792 DEBUG  1c7033986bb26553233df8a6447de897b632c4689d0a140069e76a96cec7165e
+2021-12-07 22:37:38,792 DEBUG  
+2021-12-07 22:37:38,792 DEBUG    saving metadata to C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\27\278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358.pkl
+2021-12-07 22:37:38,800 DEBUG    run function complete
+2021-12-07 22:37:38,800 INFO   matched 'value_add_tables_graphs' to fn <function value_add_tables_graphs at 0x0000020A7D8071F0>
+2021-12-07 22:37:38,822 DEBUG  
+2021-12-07 22:37:38,822 DEBUG  computing hash for dict from:
+2021-12-07 22:37:38,823 DEBUG    analytics_function_source: 7584887489e0324cd352225ee44926e3
+2021-12-07 22:37:38,823 DEBUG    arg_values:
+2021-12-07 22:37:38,823 DEBUG    batch_source: 2d99d96426374319ae7663f516fb26db
+2021-12-07 22:37:38,823 DEBUG    canonical_function_name: value_add_tables_graphs
+2021-12-07 22:37:38,823 DEBUG    depends: ['a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138']
+2021-12-07 22:37:38,823 DEBUG    fn_source: 95aa302ec80ec7c961855be9996edbbf
+2021-12-07 22:37:38,824 DEBUG  4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:38,824 DEBUG  
+2021-12-07 22:37:38,824 DEBUG  calculated hash for value_add_tables_graphs is 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:38,844 DEBUG  checking for cached metadata from a prior run
+2021-12-07 22:37:38,847 DEBUG    in C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\4c\4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9.pkl
+2021-12-07 22:37:38,850 DEBUG      not found, checking remote storages...
+2021-12-07 22:37:38,852 DEBUG  in download_from_storages for C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\4c\4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9.pkl
+2021-12-07 22:37:38,852 DEBUG      not found
+2021-12-07 22:37:38,861 DEBUG  cached metadata not found locally or remotely, running the function
+2021-12-07 22:37:38,861 DEBUG  
+2021-12-07 22:37:38,861 DEBUG  computing hash for dict from:
+2021-12-07 22:37:38,862 DEBUG    filename: doi_table_data_store.hd5
+2021-12-07 22:37:38,862 DEBUG    fn_hash: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:38,862 DEBUG  f1b75e4b21522377023dc08efc660c01bc79ca1fb23cf864179700a6bcd28982
+2021-12-07 22:37:38,862 DEBUG  
+2021-12-07 22:37:42,849 DEBUG  
+2021-12-07 22:37:42,849 DEBUG  computing hash for dict from:
+2021-12-07 22:37:42,849 DEBUG    filename: value_add_all_time.png
+2021-12-07 22:37:42,849 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:42,849 DEBUG  97b1168c4b0c8bec6b739bfc5cf4111770e58ecd58d468957bea14289ae164c1
+2021-12-07 22:37:42,849 DEBUG  
+2021-12-07 22:37:42,857 DEBUG  
+2021-12-07 22:37:42,857 DEBUG  computing hash for dict from:
+2021-12-07 22:37:42,857 DEBUG    filename: value_add_all_time.png
+2021-12-07 22:37:42,857 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:42,857 DEBUG  97b1168c4b0c8bec6b739bfc5cf4111770e58ecd58d468957bea14289ae164c1
+2021-12-07 22:37:42,857 DEBUG  
+2021-12-07 22:37:42,859 DEBUG  
+2021-12-07 22:37:42,859 DEBUG  computing hash for dict from:
+2021-12-07 22:37:42,859 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:42,859 DEBUG    fn_hash: value_add_all_time.png
+2021-12-07 22:37:42,859 DEBUG  de0634e9e0bb5de0d388eb95f87371998cad4ec41f6a3f3a455c315342c93645
+2021-12-07 22:37:42,859 DEBUG  
+2021-12-07 22:37:42,889 DEBUG  
+2021-12-07 22:37:42,889 DEBUG  computing hash for dict from:
+2021-12-07 22:37:42,889 DEBUG    filename: value_add_all_time.html
+2021-12-07 22:37:42,890 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:42,890 DEBUG  df178fbc489a580c11ad53a48d0a3039398628bb2ecd6c1dc8acb0652d1e8e12
+2021-12-07 22:37:42,890 DEBUG  
+2021-12-07 22:37:42,989 DEBUG  
+2021-12-07 22:37:42,989 DEBUG  computing hash for dict from:
+2021-12-07 22:37:42,989 DEBUG    filename: value_add_all_time.html
+2021-12-07 22:37:42,989 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:42,989 DEBUG  df178fbc489a580c11ad53a48d0a3039398628bb2ecd6c1dc8acb0652d1e8e12
+2021-12-07 22:37:42,997 DEBUG  
+2021-12-07 22:37:42,999 DEBUG  
+2021-12-07 22:37:42,999 DEBUG  computing hash for dict from:
+2021-12-07 22:37:42,999 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:42,999 DEBUG    fn_hash: value_add_all_time.html
+2021-12-07 22:37:42,999 DEBUG  4064ae821b611c2763c05b1d8a9b22cca3117a75314d24812669d2f1ec83f74b
+2021-12-07 22:37:42,999 DEBUG  
+2021-12-07 22:37:43,184 DEBUG  
+2021-12-07 22:37:43,184 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,184 DEBUG    filename: value_add_subject_all_time.png
+2021-12-07 22:37:43,184 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,185 DEBUG  47be6034f6c5eccc7d040559e4353e4c2e942fb0bbd009e63df09d3442a3ad19
+2021-12-07 22:37:43,185 DEBUG  
+2021-12-07 22:37:43,190 DEBUG  
+2021-12-07 22:37:43,190 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,190 DEBUG    filename: value_add_subject_all_time.png
+2021-12-07 22:37:43,191 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,191 DEBUG  47be6034f6c5eccc7d040559e4353e4c2e942fb0bbd009e63df09d3442a3ad19
+2021-12-07 22:37:43,191 DEBUG  
+2021-12-07 22:37:43,193 DEBUG  
+2021-12-07 22:37:43,193 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,193 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,193 DEBUG    fn_hash: value_add_subject_all_time.png
+2021-12-07 22:37:43,194 DEBUG  da215220e5fe3aa5664a120088ca2933d3e30a77a872bd9515b3b5596be5b0b2
+2021-12-07 22:37:43,194 DEBUG  
+2021-12-07 22:37:43,214 DEBUG  
+2021-12-07 22:37:43,214 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,214 DEBUG    filename: value_add_subject_all_time.html
+2021-12-07 22:37:43,214 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,215 DEBUG  bb511057e6385a28927c3984c3294180c084f33a8a13a6abf41bde150b2763f7
+2021-12-07 22:37:43,215 DEBUG  
+2021-12-07 22:37:43,319 DEBUG  
+2021-12-07 22:37:43,319 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,319 DEBUG    filename: value_add_subject_all_time.html
+2021-12-07 22:37:43,319 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,319 DEBUG  bb511057e6385a28927c3984c3294180c084f33a8a13a6abf41bde150b2763f7
+2021-12-07 22:37:43,319 DEBUG  
+2021-12-07 22:37:43,329 DEBUG  
+2021-12-07 22:37:43,329 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,329 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,329 DEBUG    fn_hash: value_add_subject_all_time.html
+2021-12-07 22:37:43,329 DEBUG  f8c2e7db8fa2d0712096b423cee8f82b2251691785d0b3697ee7f5f076843c37
+2021-12-07 22:37:43,329 DEBUG  
+2021-12-07 22:37:43,471 DEBUG  
+2021-12-07 22:37:43,471 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,472 DEBUG    filename: value_add_crossref_current_2019-21.png
+2021-12-07 22:37:43,472 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,472 DEBUG  469d77229397b2c983fb83ac8c0147f0bf5cf47a9cb9e8170e40b41eb2f7a65c
+2021-12-07 22:37:43,472 DEBUG  
+2021-12-07 22:37:43,476 DEBUG  
+2021-12-07 22:37:43,476 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,476 DEBUG    filename: value_add_crossref_current_2019-21.png
+2021-12-07 22:37:43,476 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,477 DEBUG  469d77229397b2c983fb83ac8c0147f0bf5cf47a9cb9e8170e40b41eb2f7a65c
+2021-12-07 22:37:43,477 DEBUG  
+2021-12-07 22:37:43,478 DEBUG  
+2021-12-07 22:37:43,478 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,478 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,479 DEBUG    fn_hash: value_add_crossref_current_2019-21.png
+2021-12-07 22:37:43,479 DEBUG  a056d9a0ec12182a34ab16b929758628b20bc5e0af5ee8797faaf68a0f43e37c
+2021-12-07 22:37:43,479 DEBUG  
+2021-12-07 22:37:43,494 DEBUG  
+2021-12-07 22:37:43,495 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,495 DEBUG    filename: value_add_crossref_current_2019-21.html
+2021-12-07 22:37:43,495 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,495 DEBUG  e31fde761ca502fb45acc479a1f3fb07affdcaefb8f6bcd7119ae10e7900853f
+2021-12-07 22:37:43,495 DEBUG  
+2021-12-07 22:37:43,579 DEBUG  
+2021-12-07 22:37:43,579 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,579 DEBUG    filename: value_add_crossref_current_2019-21.html
+2021-12-07 22:37:43,579 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,579 DEBUG  e31fde761ca502fb45acc479a1f3fb07affdcaefb8f6bcd7119ae10e7900853f
+2021-12-07 22:37:43,579 DEBUG  
+2021-12-07 22:37:43,579 DEBUG  
+2021-12-07 22:37:43,579 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,587 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,587 DEBUG    fn_hash: value_add_crossref_current_2019-21.html
+2021-12-07 22:37:43,587 DEBUG  6ad1a6e508e05436cf08b4a952d0addc98fc9743500f0b54f6aa927ef42ef9ec
+2021-12-07 22:37:43,587 DEBUG  
+2021-12-07 22:37:43,705 DEBUG  
+2021-12-07 22:37:43,706 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,706 DEBUG    filename: value_add_subject_crossref_current_2019-21.png
+2021-12-07 22:37:43,706 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,706 DEBUG  2341235d4a3d6480b56bdb1f2f41d2d502383e314668b4d45a7c9c49cc17a8cd
+2021-12-07 22:37:43,706 DEBUG  
+2021-12-07 22:37:43,713 DEBUG  
+2021-12-07 22:37:43,713 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,713 DEBUG    filename: value_add_subject_crossref_current_2019-21.png
+2021-12-07 22:37:43,714 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,714 DEBUG  2341235d4a3d6480b56bdb1f2f41d2d502383e314668b4d45a7c9c49cc17a8cd
+2021-12-07 22:37:43,714 DEBUG  
+2021-12-07 22:37:43,715 DEBUG  
+2021-12-07 22:37:43,716 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,716 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,716 DEBUG    fn_hash: value_add_subject_crossref_current_2019-21.png
+2021-12-07 22:37:43,716 DEBUG  22ce7843a64a776fc4f5cc3e282ff659924d68997e724be78395d3b966c12448
+2021-12-07 22:37:43,717 DEBUG  
+2021-12-07 22:37:43,736 DEBUG  
+2021-12-07 22:37:43,736 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,736 DEBUG    filename: value_add_subject_crossref_current_2019-21.html
+2021-12-07 22:37:43,736 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,736 DEBUG  ff1fb3085402d1e69d00244443140e243f9bf2aa4519895dc802b3034241c2dd
+2021-12-07 22:37:43,737 DEBUG  
+2021-12-07 22:37:43,841 DEBUG  
+2021-12-07 22:37:43,841 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,842 DEBUG    filename: value_add_subject_crossref_current_2019-21.html
+2021-12-07 22:37:43,842 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,842 DEBUG  ff1fb3085402d1e69d00244443140e243f9bf2aa4519895dc802b3034241c2dd
+2021-12-07 22:37:43,842 DEBUG  
+2021-12-07 22:37:43,843 DEBUG  
+2021-12-07 22:37:43,843 DEBUG  computing hash for dict from:
+2021-12-07 22:37:43,844 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:43,844 DEBUG    fn_hash: value_add_subject_crossref_current_2019-21.html
+2021-12-07 22:37:43,844 DEBUG  f01b8289f512d2e71423e9febaa9032438a85b56f2ae66c649ecc39bea646cd6
+2021-12-07 22:37:43,844 DEBUG  
+2021-12-07 22:37:44,010 DEBUG  
+2021-12-07 22:37:44,010 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,010 DEBUG    filename: value_add_2020_only.png
+2021-12-07 22:37:44,010 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,010 DEBUG  7f1f91e9da0ff980da71cbcef831fa78f988ed626a25d734c0dd4d140f167df4
+2021-12-07 22:37:44,010 DEBUG  
+2021-12-07 22:37:44,010 DEBUG  
+2021-12-07 22:37:44,010 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,017 DEBUG    filename: value_add_2020_only.png
+2021-12-07 22:37:44,017 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,017 DEBUG  7f1f91e9da0ff980da71cbcef831fa78f988ed626a25d734c0dd4d140f167df4
+2021-12-07 22:37:44,017 DEBUG  
+2021-12-07 22:37:44,017 DEBUG  
+2021-12-07 22:37:44,019 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,019 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,019 DEBUG    fn_hash: value_add_2020_only.png
+2021-12-07 22:37:44,019 DEBUG  1e47a136c8bc2aed111cc1d2110f01f8b1dc518ff2d6bbde3dfc4a3afd3b0048
+2021-12-07 22:37:44,019 DEBUG  
+2021-12-07 22:37:44,039 DEBUG  
+2021-12-07 22:37:44,039 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,039 DEBUG    filename: value_add_2020_only.html
+2021-12-07 22:37:44,039 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,039 DEBUG  6b5f9eda50b2a6615ff0773ed346e56a13c3e014a6249207b6550538e4e6d93b
+2021-12-07 22:37:44,039 DEBUG  
+2021-12-07 22:37:44,159 DEBUG  
+2021-12-07 22:37:44,159 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,159 DEBUG    filename: value_add_2020_only.html
+2021-12-07 22:37:44,159 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,159 DEBUG  6b5f9eda50b2a6615ff0773ed346e56a13c3e014a6249207b6550538e4e6d93b
+2021-12-07 22:37:44,159 DEBUG  
+2021-12-07 22:37:44,168 DEBUG  
+2021-12-07 22:37:44,168 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,168 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,168 DEBUG    fn_hash: value_add_2020_only.html
+2021-12-07 22:37:44,168 DEBUG  c2b90a6e263a63bb6e6d7a6491245672b6268ddae27cd93f1a5c626150ba708a
+2021-12-07 22:37:44,168 DEBUG  
+2021-12-07 22:37:44,334 DEBUG  
+2021-12-07 22:37:44,334 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,334 DEBUG    filename: value_add_subject_2020_only.png
+2021-12-07 22:37:44,334 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,334 DEBUG  35d85f75f43ec7b9a72abeecbf4da9b23c15f717ea00d50d3a8e34791b273ccd
+2021-12-07 22:37:44,335 DEBUG  
+2021-12-07 22:37:44,339 DEBUG  
+2021-12-07 22:37:44,341 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,341 DEBUG    filename: value_add_subject_2020_only.png
+2021-12-07 22:37:44,341 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,341 DEBUG  35d85f75f43ec7b9a72abeecbf4da9b23c15f717ea00d50d3a8e34791b273ccd
+2021-12-07 22:37:44,341 DEBUG  
+2021-12-07 22:37:44,341 DEBUG  
+2021-12-07 22:37:44,341 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,341 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,341 DEBUG    fn_hash: value_add_subject_2020_only.png
+2021-12-07 22:37:44,341 DEBUG  edbfce5c7faa2a5c038188aa56677fdcbe27134864549499bf096f1cefd477d7
+2021-12-07 22:37:44,341 DEBUG  
+2021-12-07 22:37:44,360 DEBUG  
+2021-12-07 22:37:44,368 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,368 DEBUG    filename: value_add_subject_2020_only.html
+2021-12-07 22:37:44,368 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,368 DEBUG  c422f54da23b6ff4b142b4e70b2d9f69528365151cdb11b21b11e6016d9f83f6
+2021-12-07 22:37:44,368 DEBUG  
+2021-12-07 22:37:44,510 DEBUG  
+2021-12-07 22:37:44,510 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,510 DEBUG    filename: value_add_subject_2020_only.html
+2021-12-07 22:37:44,511 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,511 DEBUG  c422f54da23b6ff4b142b4e70b2d9f69528365151cdb11b21b11e6016d9f83f6
+2021-12-07 22:37:44,511 DEBUG  
+2021-12-07 22:37:44,513 DEBUG  
+2021-12-07 22:37:44,513 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,513 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,513 DEBUG    fn_hash: value_add_subject_2020_only.html
+2021-12-07 22:37:44,513 DEBUG  9db443fd79cf258d4b979ad8ede7ea057a17d5cdd6405a81a2db739a1721be49
+2021-12-07 22:37:44,514 DEBUG  
+2021-12-07 22:37:44,572 DEBUG  
+2021-12-07 22:37:44,572 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,572 DEBUG    filename: summary_doi_metadata_coverage.json
+2021-12-07 22:37:44,572 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,572 DEBUG  eb7396a32b13a5cb98b524d656a1fceb876a39cf53d38a0793b139680dbcc665
+2021-12-07 22:37:44,572 DEBUG  
+2021-12-07 22:37:44,582 DEBUG  
+2021-12-07 22:37:44,582 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,582 DEBUG    filename: summary_doi_metadata_coverage.json
+2021-12-07 22:37:44,582 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,582 DEBUG  eb7396a32b13a5cb98b524d656a1fceb876a39cf53d38a0793b139680dbcc665
+2021-12-07 22:37:44,582 DEBUG  
+2021-12-07 22:37:44,582 DEBUG  
+2021-12-07 22:37:44,582 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,582 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,582 DEBUG    fn_hash: summary_doi_metadata_coverage.json
+2021-12-07 22:37:44,582 DEBUG  253890f18acb531b4d087b2c9d8c2e939ff2888e6a129a686ebc40dfe57157c6
+2021-12-07 22:37:44,582 DEBUG  
+2021-12-07 22:37:44,672 DEBUG  
+2021-12-07 22:37:44,672 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,672 DEBUG    filename: summary_value_add_table.html
+2021-12-07 22:37:44,672 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,672 DEBUG  22fef2cd7d3214dc0d9b98d8c79a27c9ec8cdbb567846455a58735f7dd4d07f6
+2021-12-07 22:37:44,672 DEBUG  
+2021-12-07 22:37:44,802 DEBUG  
+2021-12-07 22:37:44,802 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,802 DEBUG    filename: summary_value_add_table.html
+2021-12-07 22:37:44,802 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,802 DEBUG  22fef2cd7d3214dc0d9b98d8c79a27c9ec8cdbb567846455a58735f7dd4d07f6
+2021-12-07 22:37:44,802 DEBUG  
+2021-12-07 22:37:44,804 DEBUG  
+2021-12-07 22:37:44,804 DEBUG  computing hash for dict from:
+2021-12-07 22:37:44,804 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:44,804 DEBUG    fn_hash: summary_value_add_table.html
+2021-12-07 22:37:44,804 DEBUG  2ab8588b635bd672b809e3b71ccabfb6d8314aed794e909f62e6335c88b476cc
+2021-12-07 22:37:44,804 DEBUG  
+2021-12-07 22:37:45,086 DEBUG  
+2021-12-07 22:37:45,087 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,087 DEBUG    filename: abstracts_by_cr_type.png
+2021-12-07 22:37:45,087 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,087 DEBUG  c5c68fa6d7cab171d21db50cc4599b620509b8dcdc9a3ce82b3fbaa0d694981e
+2021-12-07 22:37:45,087 DEBUG  
+2021-12-07 22:37:45,093 DEBUG  
+2021-12-07 22:37:45,093 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,093 DEBUG    filename: abstracts_by_cr_type.png
+2021-12-07 22:37:45,094 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,094 DEBUG  c5c68fa6d7cab171d21db50cc4599b620509b8dcdc9a3ce82b3fbaa0d694981e
+2021-12-07 22:37:45,094 DEBUG  
+2021-12-07 22:37:45,096 DEBUG  
+2021-12-07 22:37:45,096 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,096 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,096 DEBUG    fn_hash: abstracts_by_cr_type.png
+2021-12-07 22:37:45,096 DEBUG  7541419f818d348c8285fc71165bdcae57429d2fd9f36e5977868e762f002eed
+2021-12-07 22:37:45,097 DEBUG  
+2021-12-07 22:37:45,118 DEBUG  
+2021-12-07 22:37:45,119 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,119 DEBUG    filename: abstracts_by_cr_type.html
+2021-12-07 22:37:45,119 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,119 DEBUG  e7c72aa48cefc2b23d88254a3d51e1db136bba3338b57ecbdb7ab49ddb7094a5
+2021-12-07 22:37:45,119 DEBUG  
+2021-12-07 22:37:45,229 DEBUG  
+2021-12-07 22:37:45,229 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,229 DEBUG    filename: abstracts_by_cr_type.html
+2021-12-07 22:37:45,230 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,230 DEBUG  e7c72aa48cefc2b23d88254a3d51e1db136bba3338b57ecbdb7ab49ddb7094a5
+2021-12-07 22:37:45,230 DEBUG  
+2021-12-07 22:37:45,231 DEBUG  
+2021-12-07 22:37:45,232 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,232 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,232 DEBUG    fn_hash: abstracts_by_cr_type.html
+2021-12-07 22:37:45,232 DEBUG  e19c91a950ad19dbd8e0607544c02b73decdbe2e5554ad31c3ea76b66dedaeb2
+2021-12-07 22:37:45,232 DEBUG  
+2021-12-07 22:37:45,398 DEBUG  
+2021-12-07 22:37:45,399 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,399 DEBUG    filename: affiliations_by_cr_type.png
+2021-12-07 22:37:45,399 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,399 DEBUG  58181cc8a7984d64421c58427425be21b43cb1b32a69335d03ff14e5e88df133
+2021-12-07 22:37:45,399 DEBUG  
+2021-12-07 22:37:45,404 DEBUG  
+2021-12-07 22:37:45,404 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,405 DEBUG    filename: affiliations_by_cr_type.png
+2021-12-07 22:37:45,405 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,405 DEBUG  58181cc8a7984d64421c58427425be21b43cb1b32a69335d03ff14e5e88df133
+2021-12-07 22:37:45,405 DEBUG  
+2021-12-07 22:37:45,406 DEBUG  
+2021-12-07 22:37:45,407 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,407 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,407 DEBUG    fn_hash: affiliations_by_cr_type.png
+2021-12-07 22:37:45,407 DEBUG  554e6121d841dad3641574417fe45df51371127b19ca66c537ee2943c242a546
+2021-12-07 22:37:45,407 DEBUG  
+2021-12-07 22:37:45,424 DEBUG  
+2021-12-07 22:37:45,424 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,424 DEBUG    filename: affiliations_by_cr_type.html
+2021-12-07 22:37:45,424 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,424 DEBUG  832f255112ab121e0ed1d71cad35fb3b69b42a1ee7d5c51d3af495b6bc8e6888
+2021-12-07 22:37:45,424 DEBUG  
+2021-12-07 22:37:45,515 DEBUG  
+2021-12-07 22:37:45,515 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,515 DEBUG    filename: affiliations_by_cr_type.html
+2021-12-07 22:37:45,515 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,515 DEBUG  832f255112ab121e0ed1d71cad35fb3b69b42a1ee7d5c51d3af495b6bc8e6888
+2021-12-07 22:37:45,515 DEBUG  
+2021-12-07 22:37:45,523 DEBUG  
+2021-12-07 22:37:45,523 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,523 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,523 DEBUG    fn_hash: affiliations_by_cr_type.html
+2021-12-07 22:37:45,523 DEBUG  29deaa7e05a474edacb4f63699c36ba43a5bf9fde9f9dbe981b3d34cd0951c1d
+2021-12-07 22:37:45,523 DEBUG  
+2021-12-07 22:37:45,921 DEBUG  
+2021-12-07 22:37:45,921 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,922 DEBUG    filename: citations_to_by_cr_type.png
+2021-12-07 22:37:45,922 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,922 DEBUG  5fb1e6adbda4bfc2629d496c9ce41ba26a19c897a7bb24ae8ff558ac7da28106
+2021-12-07 22:37:45,922 DEBUG  
+2021-12-07 22:37:45,928 DEBUG  
+2021-12-07 22:37:45,928 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,928 DEBUG    filename: citations_to_by_cr_type.png
+2021-12-07 22:37:45,928 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,929 DEBUG  5fb1e6adbda4bfc2629d496c9ce41ba26a19c897a7bb24ae8ff558ac7da28106
+2021-12-07 22:37:45,929 DEBUG  
+2021-12-07 22:37:45,930 DEBUG  
+2021-12-07 22:37:45,931 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,931 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,931 DEBUG    fn_hash: citations_to_by_cr_type.png
+2021-12-07 22:37:45,931 DEBUG  22707f6d75ee1ee997c20fad7343ece2fd1fc7fcfc79c87deba6c5ad69a099ad
+2021-12-07 22:37:45,931 DEBUG  
+2021-12-07 22:37:45,948 DEBUG  
+2021-12-07 22:37:45,949 DEBUG  computing hash for dict from:
+2021-12-07 22:37:45,949 DEBUG    filename: citations_to_by_cr_type.html
+2021-12-07 22:37:45,949 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:45,949 DEBUG  be0232fd6e8c62b884b054f4bbad39fbd19bc59daa63cb1d4c39f049b87f3b9b
+2021-12-07 22:37:45,949 DEBUG  
+2021-12-07 22:37:46,049 DEBUG  
+2021-12-07 22:37:46,049 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,049 DEBUG    filename: citations_to_by_cr_type.html
+2021-12-07 22:37:46,049 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,050 DEBUG  be0232fd6e8c62b884b054f4bbad39fbd19bc59daa63cb1d4c39f049b87f3b9b
+2021-12-07 22:37:46,050 DEBUG  
+2021-12-07 22:37:46,051 DEBUG  
+2021-12-07 22:37:46,051 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,052 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,052 DEBUG    fn_hash: citations_to_by_cr_type.html
+2021-12-07 22:37:46,052 DEBUG  27e43e30b80e31e6e86523bd8dde70a0486c74751480f02ae69228666f6cf0cb
+2021-12-07 22:37:46,052 DEBUG  
+2021-12-07 22:37:46,254 DEBUG  
+2021-12-07 22:37:46,254 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,254 DEBUG    filename: references_from_by_cr_type.png
+2021-12-07 22:37:46,254 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,254 DEBUG  ce60d18e866ece2a36107dcee2efc176e3edeacf6e0862a461efdb884388b7a9
+2021-12-07 22:37:46,254 DEBUG  
+2021-12-07 22:37:46,256 DEBUG  
+2021-12-07 22:37:46,256 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,256 DEBUG    filename: references_from_by_cr_type.png
+2021-12-07 22:37:46,256 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,256 DEBUG  ce60d18e866ece2a36107dcee2efc176e3edeacf6e0862a461efdb884388b7a9
+2021-12-07 22:37:46,256 DEBUG  
+2021-12-07 22:37:46,264 DEBUG  
+2021-12-07 22:37:46,264 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,264 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,264 DEBUG    fn_hash: references_from_by_cr_type.png
+2021-12-07 22:37:46,266 DEBUG  6ba6f6f28ee167657584a1bf26a3ead52609b72504427986167d38c77af9f152
+2021-12-07 22:37:46,266 DEBUG  
+2021-12-07 22:37:46,286 DEBUG  
+2021-12-07 22:37:46,286 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,286 DEBUG    filename: references_from_by_cr_type.html
+2021-12-07 22:37:46,286 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,286 DEBUG  6e6fd38030c3709a5b3f6da00e3b2045b03e5c7ea015c163e6d957f86f4aed9e
+2021-12-07 22:37:46,286 DEBUG  
+2021-12-07 22:37:46,398 DEBUG  
+2021-12-07 22:37:46,398 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,398 DEBUG    filename: references_from_by_cr_type.html
+2021-12-07 22:37:46,398 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,398 DEBUG  6e6fd38030c3709a5b3f6da00e3b2045b03e5c7ea015c163e6d957f86f4aed9e
+2021-12-07 22:37:46,398 DEBUG  
+2021-12-07 22:37:46,398 DEBUG  
+2021-12-07 22:37:46,398 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,398 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,398 DEBUG    fn_hash: references_from_by_cr_type.html
+2021-12-07 22:37:46,398 DEBUG  47a27445e72e8883d8b3751456c10823df30eca457053eaf1085f8c71d23dae0
+2021-12-07 22:37:46,398 DEBUG  
+2021-12-07 22:37:46,602 DEBUG  
+2021-12-07 22:37:46,603 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,603 DEBUG    filename: subjects_by_cr_type.png
+2021-12-07 22:37:46,603 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,603 DEBUG  3bd9f007830973ccec39098d6dffd7694571fc4624372ff8cd4c610173b6cc1c
+2021-12-07 22:37:46,603 DEBUG  
+2021-12-07 22:37:46,608 DEBUG  
+2021-12-07 22:37:46,609 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,609 DEBUG    filename: subjects_by_cr_type.png
+2021-12-07 22:37:46,609 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,609 DEBUG  3bd9f007830973ccec39098d6dffd7694571fc4624372ff8cd4c610173b6cc1c
+2021-12-07 22:37:46,609 DEBUG  
+2021-12-07 22:37:46,611 DEBUG  
+2021-12-07 22:37:46,611 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,611 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,611 DEBUG    fn_hash: subjects_by_cr_type.png
+2021-12-07 22:37:46,611 DEBUG  583aa79e5d9800b3836ca2db8d222c2395b481eefc27566c78d0627e8d783184
+2021-12-07 22:37:46,612 DEBUG  
+2021-12-07 22:37:46,630 DEBUG  
+2021-12-07 22:37:46,630 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,631 DEBUG    filename: subjects_by_cr_type.html
+2021-12-07 22:37:46,631 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,631 DEBUG  c190fa603a259627353e6383168deb020f3e1633b842479b4df17ea378eeb1dd
+2021-12-07 22:37:46,631 DEBUG  
+2021-12-07 22:37:46,729 DEBUG  
+2021-12-07 22:37:46,729 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,729 DEBUG    filename: subjects_by_cr_type.html
+2021-12-07 22:37:46,729 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,729 DEBUG  c190fa603a259627353e6383168deb020f3e1633b842479b4df17ea378eeb1dd
+2021-12-07 22:37:46,729 DEBUG  
+2021-12-07 22:37:46,737 DEBUG  
+2021-12-07 22:37:46,739 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,739 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,739 DEBUG    fn_hash: subjects_by_cr_type.html
+2021-12-07 22:37:46,739 DEBUG  9815b69f8e238d7b024ddff2a5d98c0e9da9fd8505f2f28f8cca23d374f417da
+2021-12-07 22:37:46,739 DEBUG  
+2021-12-07 22:37:46,789 DEBUG  
+2021-12-07 22:37:46,789 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,789 DEBUG    filename: summary_doi_metadata_coverage_by_type_alltime.json
+2021-12-07 22:37:46,789 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,789 DEBUG  3b864c63485371d488c554f06846c7f8a6c546e126f96a66683187274d42d36f
+2021-12-07 22:37:46,789 DEBUG  
+2021-12-07 22:37:46,797 DEBUG  
+2021-12-07 22:37:46,797 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,797 DEBUG    filename: summary_doi_metadata_coverage_by_type_alltime.json
+2021-12-07 22:37:46,797 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,797 DEBUG  3b864c63485371d488c554f06846c7f8a6c546e126f96a66683187274d42d36f
+2021-12-07 22:37:46,797 DEBUG  
+2021-12-07 22:37:46,799 DEBUG  
+2021-12-07 22:37:46,799 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,799 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,799 DEBUG    fn_hash: summary_doi_metadata_coverage_by_type_alltime.json
+2021-12-07 22:37:46,799 DEBUG  bb863db666c4d90c2ab16a78c31ba4146d9045c05f3ac64677e58aac241d05e8
+2021-12-07 22:37:46,799 DEBUG  
+2021-12-07 22:37:46,933 DEBUG  
+2021-12-07 22:37:46,933 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,933 DEBUG    filename: summary_doi_metadata_coverage_by_type_2020.json
+2021-12-07 22:37:46,934 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,934 DEBUG  a04b5d07c2db197c5e50bd63a4734e87a0396847fd8a4a0090476686524c16cb
+2021-12-07 22:37:46,934 DEBUG  
+2021-12-07 22:37:46,954 DEBUG  
+2021-12-07 22:37:46,955 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,955 DEBUG    filename: summary_doi_metadata_coverage_by_type_2020.json
+2021-12-07 22:37:46,957 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,957 DEBUG  a04b5d07c2db197c5e50bd63a4734e87a0396847fd8a4a0090476686524c16cb
+2021-12-07 22:37:46,958 DEBUG  
+2021-12-07 22:37:46,959 DEBUG  
+2021-12-07 22:37:46,959 DEBUG  computing hash for dict from:
+2021-12-07 22:37:46,960 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:46,960 DEBUG    fn_hash: summary_doi_metadata_coverage_by_type_2020.json
+2021-12-07 22:37:46,960 DEBUG  c23910bb66902daddb95e3eee00b79e21068e095d39bcc6d00dc7cd26f028a8e
+2021-12-07 22:37:46,960 DEBUG  
+2021-12-07 22:37:47,098 DEBUG  
+2021-12-07 22:37:47,099 DEBUG  computing hash for dict from:
+2021-12-07 22:37:47,099 DEBUG    filename: summary_doi_metadata_coverage_by_type_current.json
+2021-12-07 22:37:47,099 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:47,099 DEBUG  f0ecb461a8a2585025fa1316c7e4456a96dade27dc78b44e5b661e2e9c028708
+2021-12-07 22:37:47,100 DEBUG  
+2021-12-07 22:37:47,113 DEBUG  
+2021-12-07 22:37:47,114 DEBUG  computing hash for dict from:
+2021-12-07 22:37:47,115 DEBUG    filename: summary_doi_metadata_coverage_by_type_current.json
+2021-12-07 22:37:47,115 DEBUG    fn_hash: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:47,115 DEBUG  f0ecb461a8a2585025fa1316c7e4456a96dade27dc78b44e5b661e2e9c028708
+2021-12-07 22:37:47,116 DEBUG  
+2021-12-07 22:37:47,118 DEBUG  
+2021-12-07 22:37:47,118 DEBUG  computing hash for dict from:
+2021-12-07 22:37:47,118 DEBUG    filename: 4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9
+2021-12-07 22:37:47,119 DEBUG    fn_hash: summary_doi_metadata_coverage_by_type_current.json
+2021-12-07 22:37:47,119 DEBUG  52cbaddf15e6b44a3867ced487b8e5e5bb8b7d91ad2dd3649f72897f5e208349
+2021-12-07 22:37:47,119 DEBUG  
+2021-12-07 22:37:47,123 DEBUG    saving metadata to C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\4c\4c1299a8f5a3626167ed6033bcdfe0536208b0edac68c7225a1aa1c373f863e9.pkl
+2021-12-07 22:37:47,127 DEBUG    run function complete
+2021-12-07 22:37:47,127 INFO   matched 'alluvial_graph' to fn <function alluvial_graph at 0x0000020A7D8073A0>
+2021-12-07 22:37:47,143 DEBUG  
+2021-12-07 22:37:47,143 DEBUG  computing hash for dict from:
+2021-12-07 22:37:47,143 DEBUG    analytics_function_source: 7584887489e0324cd352225ee44926e3
+2021-12-07 22:37:47,143 DEBUG    arg_values:
+2021-12-07 22:37:47,144 DEBUG    batch_source: 2d99d96426374319ae7663f516fb26db
+2021-12-07 22:37:47,144 DEBUG    canonical_function_name: alluvial_graph
+2021-12-07 22:37:47,144 DEBUG    depends: ['a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138']
+2021-12-07 22:37:47,144 DEBUG    fn_source: d3923f1a8ef69f4dd27e4913ca73565c
+2021-12-07 22:37:47,144 DEBUG  b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:47,144 DEBUG  
+2021-12-07 22:37:47,145 DEBUG  calculated hash for alluvial_graph is b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:47,160 DEBUG  checking for cached metadata from a prior run
+2021-12-07 22:37:47,162 DEBUG    in C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\b1\b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a.pkl
+2021-12-07 22:37:47,176 DEBUG      not found, checking remote storages...
+2021-12-07 22:37:47,178 DEBUG  in download_from_storages for C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\b1\b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a.pkl
+2021-12-07 22:37:47,178 DEBUG      not found
+2021-12-07 22:37:47,180 DEBUG  cached metadata not found locally or remotely, running the function
+2021-12-07 22:37:47,180 DEBUG  
+2021-12-07 22:37:47,181 DEBUG  computing hash for dict from:
+2021-12-07 22:37:47,181 DEBUG    filename: doi_table_data_store.hd5
+2021-12-07 22:37:47,181 DEBUG    fn_hash: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:47,181 DEBUG  f1b75e4b21522377023dc08efc660c01bc79ca1fb23cf864179700a6bcd28982
+2021-12-07 22:37:47,181 DEBUG  
+2021-12-07 22:37:48,484 DEBUG  
+2021-12-07 22:37:48,484 DEBUG  computing hash for dict from:
+2021-12-07 22:37:48,484 DEBUG    filename: alluvial_all_time.png
+2021-12-07 22:37:48,485 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:48,485 DEBUG  b0eae3b9f5b1c53591d03f4df041549ac32305772ac457a49f222ffa815dc6d5
+2021-12-07 22:37:48,485 DEBUG  
+2021-12-07 22:37:48,490 DEBUG  
+2021-12-07 22:37:48,490 DEBUG  computing hash for dict from:
+2021-12-07 22:37:48,490 DEBUG    filename: alluvial_all_time.png
+2021-12-07 22:37:48,490 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:48,490 DEBUG  b0eae3b9f5b1c53591d03f4df041549ac32305772ac457a49f222ffa815dc6d5
+2021-12-07 22:37:48,491 DEBUG  
+2021-12-07 22:37:48,492 DEBUG  
+2021-12-07 22:37:48,492 DEBUG  computing hash for dict from:
+2021-12-07 22:37:48,493 DEBUG    filename: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:48,493 DEBUG    fn_hash: alluvial_all_time.png
+2021-12-07 22:37:48,493 DEBUG  c1825180a9fc980dfbaa0150b3b4241466184281111fd909166cf16f209fbe91
+2021-12-07 22:37:48,493 DEBUG  
+2021-12-07 22:37:48,518 DEBUG  
+2021-12-07 22:37:48,518 DEBUG  computing hash for dict from:
+2021-12-07 22:37:48,518 DEBUG    filename: alluvial_all_time.html
+2021-12-07 22:37:48,518 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:48,518 DEBUG  d066dede6ce5ddc33f89812f26c6be77ffa86ccf9d2104c77f1e145e7d722586
+2021-12-07 22:37:48,519 DEBUG  
+2021-12-07 22:37:48,613 DEBUG  
+2021-12-07 22:37:48,613 DEBUG  computing hash for dict from:
+2021-12-07 22:37:48,613 DEBUG    filename: alluvial_all_time.html
+2021-12-07 22:37:48,613 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:48,614 DEBUG  d066dede6ce5ddc33f89812f26c6be77ffa86ccf9d2104c77f1e145e7d722586
+2021-12-07 22:37:48,614 DEBUG  
+2021-12-07 22:37:48,615 DEBUG  
+2021-12-07 22:37:48,615 DEBUG  computing hash for dict from:
+2021-12-07 22:37:48,615 DEBUG    filename: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:48,616 DEBUG    fn_hash: alluvial_all_time.html
+2021-12-07 22:37:48,616 DEBUG  486b2d7816f5c7ab403c3be1c38cfb0c9b58f50053982dce7c932464504f020d
+2021-12-07 22:37:48,616 DEBUG  
+2021-12-07 22:37:49,291 DEBUG  
+2021-12-07 22:37:49,291 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,291 DEBUG    filename: alluvial_current.png
+2021-12-07 22:37:49,291 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:49,292 DEBUG  78f7a20ff7f02387e649fa57382eddbec3037e6bb331a67f0acaeb87def1ec2a
+2021-12-07 22:37:49,292 DEBUG  
+2021-12-07 22:37:49,297 DEBUG  
+2021-12-07 22:37:49,297 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,297 DEBUG    filename: alluvial_current.png
+2021-12-07 22:37:49,298 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:49,298 DEBUG  78f7a20ff7f02387e649fa57382eddbec3037e6bb331a67f0acaeb87def1ec2a
+2021-12-07 22:37:49,298 DEBUG  
+2021-12-07 22:37:49,299 DEBUG  
+2021-12-07 22:37:49,300 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,300 DEBUG    filename: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:49,300 DEBUG    fn_hash: alluvial_current.png
+2021-12-07 22:37:49,300 DEBUG  5b433d24168b287dab4adb100da07324bdf15e1f91ba68f6d2fc82917aebec1c
+2021-12-07 22:37:49,301 DEBUG  
+2021-12-07 22:37:49,325 DEBUG  
+2021-12-07 22:37:49,325 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,326 DEBUG    filename: alluvial_current.html
+2021-12-07 22:37:49,326 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:49,326 DEBUG  57d2cda657795a46132b09fbf18fc5fe4156d0c87859e0d126c397797a4ac80b
+2021-12-07 22:37:49,326 DEBUG  
+2021-12-07 22:37:49,536 DEBUG  
+2021-12-07 22:37:49,536 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,536 DEBUG    filename: alluvial_current.html
+2021-12-07 22:37:49,536 DEBUG    fn_hash: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:49,536 DEBUG  57d2cda657795a46132b09fbf18fc5fe4156d0c87859e0d126c397797a4ac80b
+2021-12-07 22:37:49,537 DEBUG  
+2021-12-07 22:37:49,538 DEBUG  
+2021-12-07 22:37:49,539 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,539 DEBUG    filename: b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a
+2021-12-07 22:37:49,539 DEBUG    fn_hash: alluvial_current.html
+2021-12-07 22:37:49,539 DEBUG  0e3c7bbb278cebad5b9837200cc0d4d261bd768c8b1271ee5b78b1d8bf9bd370
+2021-12-07 22:37:49,539 DEBUG  
+2021-12-07 22:37:49,545 DEBUG    saving metadata to C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\b1\b188f5bd1dfe71b2515afabf51aee9f9d11881f438a24cdef0d3a6c479c9e36a.pkl
+2021-12-07 22:37:49,548 DEBUG    run function complete
+2021-12-07 22:37:49,549 INFO   matched 'openalex_coverage_by_cr_type' to fn <function openalex_coverage_by_cr_type at 0x0000020A7D807310>
+2021-12-07 22:37:49,558 DEBUG  
+2021-12-07 22:37:49,558 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,558 DEBUG    analytics_function_source: 7584887489e0324cd352225ee44926e3
+2021-12-07 22:37:49,559 DEBUG    arg_values:
+2021-12-07 22:37:49,559 DEBUG    batch_source: 2d99d96426374319ae7663f516fb26db
+2021-12-07 22:37:49,559 DEBUG    canonical_function_name: openalex_coverage_by_cr_type
+2021-12-07 22:37:49,559 DEBUG    depends: ['a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138']
+2021-12-07 22:37:49,560 DEBUG    fn_source: 5812ab5c07d2d5f347e27ccb359e3f61
+2021-12-07 22:37:49,560 DEBUG  9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:49,560 DEBUG  
+2021-12-07 22:37:49,560 DEBUG  calculated hash for openalex_coverage_by_cr_type is 9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:49,569 DEBUG  checking for cached metadata from a prior run
+2021-12-07 22:37:49,571 DEBUG    in C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\9a\9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263.pkl
+2021-12-07 22:37:49,574 DEBUG      not found, checking remote storages...
+2021-12-07 22:37:49,576 DEBUG  in download_from_storages for C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\9a\9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263.pkl
+2021-12-07 22:37:49,576 DEBUG      not found
+2021-12-07 22:37:49,578 DEBUG  cached metadata not found locally or remotely, running the function
+2021-12-07 22:37:49,578 DEBUG  
+2021-12-07 22:37:49,579 DEBUG  computing hash for dict from:
+2021-12-07 22:37:49,579 DEBUG    filename: doi_table_data_store.hd5
+2021-12-07 22:37:49,579 DEBUG    fn_hash: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:49,579 DEBUG  f1b75e4b21522377023dc08efc660c01bc79ca1fb23cf864179700a6bcd28982
+2021-12-07 22:37:49,579 DEBUG  
+2021-12-07 22:37:50,130 DEBUG  
+2021-12-07 22:37:50,131 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,131 DEBUG    filename: openalex_coverage_by_crossref_type.png
+2021-12-07 22:37:50,131 DEBUG    fn_hash: 9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:50,131 DEBUG  7030da3696a71a99bda81e4259c5c1088a8eef5655bf3e91eb4d46a5d658e2d3
+2021-12-07 22:37:50,131 DEBUG  
+2021-12-07 22:37:50,136 DEBUG  
+2021-12-07 22:37:50,136 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,136 DEBUG    filename: openalex_coverage_by_crossref_type.png
+2021-12-07 22:37:50,136 DEBUG    fn_hash: 9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:50,137 DEBUG  7030da3696a71a99bda81e4259c5c1088a8eef5655bf3e91eb4d46a5d658e2d3
+2021-12-07 22:37:50,137 DEBUG  
+2021-12-07 22:37:50,138 DEBUG  
+2021-12-07 22:37:50,138 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,139 DEBUG    filename: 9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:50,139 DEBUG    fn_hash: openalex_coverage_by_crossref_type.png
+2021-12-07 22:37:50,139 DEBUG  2cbd0891c594d3e3bf824f5b788554c75ba7c109281c8a8388670da21ff28297
+2021-12-07 22:37:50,139 DEBUG  
+2021-12-07 22:37:50,156 DEBUG  
+2021-12-07 22:37:50,156 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,156 DEBUG    filename: openalex_coverage_by_crossref_type.html
+2021-12-07 22:37:50,157 DEBUG    fn_hash: 9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:50,157 DEBUG  13239974b39e70a2acb12591fd0f9e5cde64bf13f969b384892c649d7215a1ff
+2021-12-07 22:37:50,157 DEBUG  
+2021-12-07 22:37:50,266 DEBUG  
+2021-12-07 22:37:50,266 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,266 DEBUG    filename: openalex_coverage_by_crossref_type.html
+2021-12-07 22:37:50,266 DEBUG    fn_hash: 9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:50,266 DEBUG  13239974b39e70a2acb12591fd0f9e5cde64bf13f969b384892c649d7215a1ff
+2021-12-07 22:37:50,267 DEBUG  
+2021-12-07 22:37:50,268 DEBUG  
+2021-12-07 22:37:50,268 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,269 DEBUG    filename: 9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263
+2021-12-07 22:37:50,269 DEBUG    fn_hash: openalex_coverage_by_crossref_type.html
+2021-12-07 22:37:50,269 DEBUG  74d3a81407eb7ed433f4ca28ba1c80a8146c9a3ad72f90d9c5ec61cfd58a2e69
+2021-12-07 22:37:50,269 DEBUG  
+2021-12-07 22:37:50,273 DEBUG    saving metadata to C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\9a\9a97fe5355b5b2e25f1bd6d097fcbf25f52d07f485bc72b24c118e49b99e4263.pkl
+2021-12-07 22:37:50,275 DEBUG    run function complete
+2021-12-07 22:37:50,276 INFO   matched 'overall_comparison' to fn <function overall_comparison at 0x0000020A7D8074C0>
+2021-12-07 22:37:50,291 DEBUG  
+2021-12-07 22:37:50,291 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,291 DEBUG    analytics_function_source: 7584887489e0324cd352225ee44926e3
+2021-12-07 22:37:50,291 DEBUG    arg_values:
+2021-12-07 22:37:50,292 DEBUG    batch_source: 2d99d96426374319ae7663f516fb26db
+2021-12-07 22:37:50,292 DEBUG    canonical_function_name: overall_comparison
+2021-12-07 22:37:50,292 DEBUG    depends: ['a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138', '278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358']
+2021-12-07 22:37:50,292 DEBUG    fn_source: 8c7eaefad418fe60007d2d4cadbe73b5
+2021-12-07 22:37:50,292 DEBUG  48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:50,292 DEBUG  
+2021-12-07 22:37:50,293 DEBUG  calculated hash for overall_comparison is 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:50,310 DEBUG  checking for cached metadata from a prior run
+2021-12-07 22:37:50,312 DEBUG    in C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\48\48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e.pkl
+2021-12-07 22:37:50,315 DEBUG      not found, checking remote storages...
+2021-12-07 22:37:50,317 DEBUG  in download_from_storages for C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\48\48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e.pkl
+2021-12-07 22:37:50,317 DEBUG      not found
+2021-12-07 22:37:50,319 DEBUG  cached metadata not found locally or remotely, running the function
+2021-12-07 22:37:50,319 DEBUG  
+2021-12-07 22:37:50,319 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,319 DEBUG    filename: doi_table_data_store.hd5
+2021-12-07 22:37:50,319 DEBUG    fn_hash: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:50,320 DEBUG  f1b75e4b21522377023dc08efc660c01bc79ca1fb23cf864179700a6bcd28982
+2021-12-07 22:37:50,320 DEBUG  
+2021-12-07 22:37:50,465 DEBUG  
+2021-12-07 22:37:50,465 DEBUG  computing hash for dict from:
+2021-12-07 22:37:50,465 DEBUG    filename: openalex_table_data_store.hd5
+2021-12-07 22:37:50,466 DEBUG    fn_hash: 278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358
+2021-12-07 22:37:50,466 DEBUG  c7272d99ff6bee4a0ca28490fb19d96f6a67232cd57a01dcd63be7988f5dc944
+2021-12-07 22:37:50,466 DEBUG  
+2021-12-07 22:37:51,044 DEBUG  
+2021-12-07 22:37:51,044 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,044 DEBUG    filename: overall_coverage.png
+2021-12-07 22:37:51,044 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,044 DEBUG  339f44e5441fe405269e1755618640fe4a026cce05fd3adf3f1c52170f2b07c2
+2021-12-07 22:37:51,045 DEBUG  
+2021-12-07 22:37:51,049 DEBUG  
+2021-12-07 22:37:51,049 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,049 DEBUG    filename: overall_coverage.png
+2021-12-07 22:37:51,049 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,050 DEBUG  339f44e5441fe405269e1755618640fe4a026cce05fd3adf3f1c52170f2b07c2
+2021-12-07 22:37:51,050 DEBUG  
+2021-12-07 22:37:51,051 DEBUG  
+2021-12-07 22:37:51,051 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,051 DEBUG    filename: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,052 DEBUG    fn_hash: overall_coverage.png
+2021-12-07 22:37:51,052 DEBUG  8966c933fc4a1f47e17fbd69351389dd87b7699523b70a3449972ba186ed3b4b
+2021-12-07 22:37:51,052 DEBUG  
+2021-12-07 22:37:51,071 DEBUG  
+2021-12-07 22:37:51,072 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,072 DEBUG    filename: overall_coverage.html
+2021-12-07 22:37:51,072 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,072 DEBUG  bb71aad7e0c21357488afc58238db1bf45cb5b2ee7ffdc7011d9a113dddfd8cb
+2021-12-07 22:37:51,072 DEBUG  
+2021-12-07 22:37:51,167 DEBUG  
+2021-12-07 22:37:51,168 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,168 DEBUG    filename: overall_coverage.html
+2021-12-07 22:37:51,168 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,168 DEBUG  bb71aad7e0c21357488afc58238db1bf45cb5b2ee7ffdc7011d9a113dddfd8cb
+2021-12-07 22:37:51,168 DEBUG  
+2021-12-07 22:37:51,170 DEBUG  
+2021-12-07 22:37:51,170 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,170 DEBUG    filename: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,171 DEBUG    fn_hash: overall_coverage.html
+2021-12-07 22:37:51,171 DEBUG  12179ac92dda56288cc8fa2dd119a406074d9f8b38ad47e8d5bd6ade56858522
+2021-12-07 22:37:51,171 DEBUG  
+2021-12-07 22:37:51,344 DEBUG  
+2021-12-07 22:37:51,345 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,345 DEBUG    filename: 2020_coverage.png
+2021-12-07 22:37:51,345 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,345 DEBUG  092f85fd18ab318cc89daf9fc325c416acd01ac9b14ad7d5de3c5ca1b87e9579
+2021-12-07 22:37:51,345 DEBUG  
+2021-12-07 22:37:51,359 DEBUG  
+2021-12-07 22:37:51,359 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,359 DEBUG    filename: 2020_coverage.png
+2021-12-07 22:37:51,360 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,360 DEBUG  092f85fd18ab318cc89daf9fc325c416acd01ac9b14ad7d5de3c5ca1b87e9579
+2021-12-07 22:37:51,360 DEBUG  
+2021-12-07 22:37:51,377 DEBUG  
+2021-12-07 22:37:51,377 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,377 DEBUG    filename: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,377 DEBUG    fn_hash: 2020_coverage.png
+2021-12-07 22:37:51,378 DEBUG  bc0241e2f6036a8e3fbcc8eaac6e69e4e837fea070eba30612a7c0376074713c
+2021-12-07 22:37:51,378 DEBUG  
+2021-12-07 22:37:51,608 DEBUG  
+2021-12-07 22:37:51,608 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,608 DEBUG    filename: current_coverage.png
+2021-12-07 22:37:51,608 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,608 DEBUG  d3dc77f6a7a8bf3191e9e3d080296a6a0325e9efaa4baad193f046e3c8d708bf
+2021-12-07 22:37:51,609 DEBUG  
+2021-12-07 22:37:51,614 DEBUG  
+2021-12-07 22:37:51,614 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,614 DEBUG    filename: current_coverage.png
+2021-12-07 22:37:51,614 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,615 DEBUG  d3dc77f6a7a8bf3191e9e3d080296a6a0325e9efaa4baad193f046e3c8d708bf
+2021-12-07 22:37:51,615 DEBUG  
+2021-12-07 22:37:51,616 DEBUG  
+2021-12-07 22:37:51,617 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,617 DEBUG    filename: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,617 DEBUG    fn_hash: current_coverage.png
+2021-12-07 22:37:51,617 DEBUG  176f40baf307fd647b818609af6295ada3cd120386322ceb982bbb071964a5ba
+2021-12-07 22:37:51,618 DEBUG  
+2021-12-07 22:37:51,638 DEBUG  
+2021-12-07 22:37:51,638 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,638 DEBUG    filename: current_coverage.html
+2021-12-07 22:37:51,638 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,638 DEBUG  1a344a45f1052d94f1191a7266693a873f80d4c7918c2a7750d8d0cd7800fd2a
+2021-12-07 22:37:51,638 DEBUG  
+2021-12-07 22:37:51,745 DEBUG  
+2021-12-07 22:37:51,746 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,746 DEBUG    filename: current_coverage.html
+2021-12-07 22:37:51,746 DEBUG    fn_hash: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,746 DEBUG  1a344a45f1052d94f1191a7266693a873f80d4c7918c2a7750d8d0cd7800fd2a
+2021-12-07 22:37:51,746 DEBUG  
+2021-12-07 22:37:51,750 DEBUG  
+2021-12-07 22:37:51,751 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,751 DEBUG    filename: 48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e
+2021-12-07 22:37:51,751 DEBUG    fn_hash: current_coverage.html
+2021-12-07 22:37:51,752 DEBUG  dc73ae32600a53a8287704234bc1a51c1e2edb9d1de1828ce63e12200ba9d662
+2021-12-07 22:37:51,752 DEBUG  
+2021-12-07 22:37:51,758 DEBUG    saving metadata to C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\48\48487d3dc3ec7aaf6d8efc47bb1e7911b3f162d9a8c41b0658b06e0abf5f424e.pkl
+2021-12-07 22:37:51,765 DEBUG    run function complete
+2021-12-07 22:37:51,766 INFO   matched 'openalex_in_crossref_by_pubdate' to fn <function openalex_in_crossref_by_pubdate at 0x0000020A7D807550>
+2021-12-07 22:37:51,774 DEBUG  
+2021-12-07 22:37:51,774 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,776 DEBUG    analytics_function_source: 7584887489e0324cd352225ee44926e3
+2021-12-07 22:37:51,776 DEBUG    arg_values:
+2021-12-07 22:37:51,776 DEBUG    batch_source: 2d99d96426374319ae7663f516fb26db
+2021-12-07 22:37:51,776 DEBUG    canonical_function_name: openalex_in_crossref_by_pubdate
+2021-12-07 22:37:51,776 DEBUG    depends: ['a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138', '278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358']
+2021-12-07 22:37:51,776 DEBUG    fn_source: d9ce5c01d2aa1f1dbbf318908ee87f56
+2021-12-07 22:37:51,776 DEBUG  6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:37:51,776 DEBUG  
+2021-12-07 22:37:51,776 DEBUG  calculated hash for openalex_in_crossref_by_pubdate is 6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:37:51,812 DEBUG  checking for cached metadata from a prior run
+2021-12-07 22:37:51,814 DEBUG    in C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\6d\6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80.pkl
+2021-12-07 22:37:51,826 DEBUG      not found, checking remote storages...
+2021-12-07 22:37:51,831 DEBUG  in download_from_storages for C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\6d\6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80.pkl
+2021-12-07 22:37:51,831 DEBUG      not found
+2021-12-07 22:37:51,833 DEBUG  cached metadata not found locally or remotely, running the function
+2021-12-07 22:37:51,833 DEBUG  
+2021-12-07 22:37:51,833 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,833 DEBUG    filename: doi_table_data_store.hd5
+2021-12-07 22:37:51,834 DEBUG    fn_hash: a1c300fda7fb04127debea334ad3fdab867c6506203a1024cdc14f5548114138
+2021-12-07 22:37:51,834 DEBUG  f1b75e4b21522377023dc08efc660c01bc79ca1fb23cf864179700a6bcd28982
+2021-12-07 22:37:51,834 DEBUG  
+2021-12-07 22:37:51,919 DEBUG  
+2021-12-07 22:37:51,920 DEBUG  computing hash for dict from:
+2021-12-07 22:37:51,920 DEBUG    filename: openalex_table_data_store.hd5
+2021-12-07 22:37:51,921 DEBUG    fn_hash: 278b3c381b229d5f96a28244e018f8d2c2ad9186ccd644ac1005f218b70b0358
+2021-12-07 22:37:51,921 DEBUG  c7272d99ff6bee4a0ca28490fb19d96f6a67232cd57a01dcd63be7988f5dc944
+2021-12-07 22:37:51,921 DEBUG  
+2021-12-07 22:38:00,185 DEBUG  
+2021-12-07 22:38:00,185 DEBUG  computing hash for dict from:
+2021-12-07 22:38:00,185 DEBUG    filename: cr_in_openalex_barline.png
+2021-12-07 22:38:00,185 DEBUG    fn_hash: 6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:38:00,185 DEBUG  5b6ebbd1727430421cdf18e8330baa7ac874d857cb0160681681fbb7b4726c25
+2021-12-07 22:38:00,186 DEBUG  
+2021-12-07 22:38:00,190 DEBUG  
+2021-12-07 22:38:00,190 DEBUG  computing hash for dict from:
+2021-12-07 22:38:00,191 DEBUG    filename: cr_in_openalex_barline.png
+2021-12-07 22:38:00,191 DEBUG    fn_hash: 6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:38:00,191 DEBUG  5b6ebbd1727430421cdf18e8330baa7ac874d857cb0160681681fbb7b4726c25
+2021-12-07 22:38:00,191 DEBUG  
+2021-12-07 22:38:00,192 DEBUG  
+2021-12-07 22:38:00,193 DEBUG  computing hash for dict from:
+2021-12-07 22:38:00,193 DEBUG    filename: 6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:38:00,193 DEBUG    fn_hash: cr_in_openalex_barline.png
+2021-12-07 22:38:00,193 DEBUG  da2295b9202999f6d61b9dddf0b80b9f1dc1eb0b939da9ba7dd7a0d4376a96e5
+2021-12-07 22:38:00,193 DEBUG  
+2021-12-07 22:38:00,212 DEBUG  
+2021-12-07 22:38:00,212 DEBUG  computing hash for dict from:
+2021-12-07 22:38:00,212 DEBUG    filename: cr_in_openalex_barline.html
+2021-12-07 22:38:00,213 DEBUG    fn_hash: 6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:38:00,213 DEBUG  d0fa8a9d647521079ade3aca1d9fd0dd630ed6428144c415b34dca2e5699168a
+2021-12-07 22:38:00,213 DEBUG  
+2021-12-07 22:38:00,310 DEBUG  
+2021-12-07 22:38:00,310 DEBUG  computing hash for dict from:
+2021-12-07 22:38:00,310 DEBUG    filename: cr_in_openalex_barline.html
+2021-12-07 22:38:00,310 DEBUG    fn_hash: 6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:38:00,312 DEBUG  d0fa8a9d647521079ade3aca1d9fd0dd630ed6428144c415b34dca2e5699168a
+2021-12-07 22:38:00,312 DEBUG  
+2021-12-07 22:38:00,314 DEBUG  
+2021-12-07 22:38:00,314 DEBUG  computing hash for dict from:
+2021-12-07 22:38:00,314 DEBUG    filename: 6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80
+2021-12-07 22:38:00,315 DEBUG    fn_hash: cr_in_openalex_barline.html
+2021-12-07 22:38:00,315 DEBUG  552f38b6420e863d2d9acc0d7a8338a9d8e1ba39d63a6d0be1c3728aaf8c7bc6
+2021-12-07 22:38:00,315 DEBUG  
+2021-12-07 22:38:00,319 DEBUG    saving metadata to C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\6d\6dde7905adb50348cd4ff626e2dfb66e08432ec97d02546afd4f256bfd0dff80.pkl
+2021-12-07 22:38:00,332 DEBUG    run function complete
+2021-12-07 22:38:00,332 DEBUG  
+2021-12-07 22:38:00,332 DEBUG  ***** DOCUMENTS
+2021-12-07 22:38:00,332 DEBUG  
+2021-12-07 22:38:00,520 DEBUG  populating work dir C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\docs\30d24daa23d0c83f819c1287c58d4763
+2021-12-07 22:38:00,527 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:00,530 DEBUG    copying supp file doi_table_data_store.hd5
+2021-12-07 22:38:00,564 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:00,573 DEBUG    copying supp file openalex_table_data_store.hd5
+2021-12-07 22:38:00,596 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:00,601 DEBUG    copying supp file value_add_all_time.png
+2021-12-07 22:38:00,608 DEBUG    copying supp file value_add_all_time.html
+2021-12-07 22:38:00,637 DEBUG    copying supp file value_add_subject_all_time.png
+2021-12-07 22:38:00,640 DEBUG    copying supp file value_add_subject_all_time.html
+2021-12-07 22:38:00,652 DEBUG    copying supp file value_add_crossref_current_2019-21.png
+2021-12-07 22:38:00,659 DEBUG    copying supp file value_add_crossref_current_2019-21.html
+2021-12-07 22:38:00,674 DEBUG    copying supp file value_add_subject_crossref_current_2019-21.png
+2021-12-07 22:38:00,678 DEBUG    copying supp file value_add_subject_crossref_current_2019-21.html
+2021-12-07 22:38:00,688 DEBUG    copying supp file value_add_2020_only.png
+2021-12-07 22:38:00,692 DEBUG    copying supp file value_add_2020_only.html
+2021-12-07 22:38:00,706 DEBUG    copying supp file value_add_subject_2020_only.png
+2021-12-07 22:38:00,710 DEBUG    copying supp file value_add_subject_2020_only.html
+2021-12-07 22:38:00,741 DEBUG    copying supp file summary_doi_metadata_coverage.json
+2021-12-07 22:38:00,749 DEBUG    copying supp file summary_value_add_table.html
+2021-12-07 22:38:00,787 DEBUG    copying supp file abstracts_by_cr_type.png
+2021-12-07 22:38:00,791 DEBUG    copying supp file abstracts_by_cr_type.html
+2021-12-07 22:38:00,802 DEBUG    copying supp file affiliations_by_cr_type.png
+2021-12-07 22:38:00,810 DEBUG    copying supp file affiliations_by_cr_type.html
+2021-12-07 22:38:00,826 DEBUG    copying supp file citations_to_by_cr_type.png
+2021-12-07 22:38:00,842 DEBUG    copying supp file citations_to_by_cr_type.html
+2021-12-07 22:38:00,876 DEBUG    copying supp file references_from_by_cr_type.png
+2021-12-07 22:38:00,883 DEBUG    copying supp file references_from_by_cr_type.html
+2021-12-07 22:38:00,892 DEBUG    copying supp file subjects_by_cr_type.png
+2021-12-07 22:38:00,896 DEBUG    copying supp file subjects_by_cr_type.html
+2021-12-07 22:38:00,906 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_alltime.json
+2021-12-07 22:38:00,909 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_2020.json
+2021-12-07 22:38:00,914 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_current.json
+2021-12-07 22:38:00,924 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:00,928 DEBUG    copying supp file alluvial_all_time.png
+2021-12-07 22:38:00,933 DEBUG    copying supp file alluvial_all_time.html
+2021-12-07 22:38:00,943 DEBUG    copying supp file alluvial_current.png
+2021-12-07 22:38:00,947 DEBUG    copying supp file alluvial_current.html
+2021-12-07 22:38:00,975 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:00,979 DEBUG    copying supp file openalex_coverage_by_crossref_type.png
+2021-12-07 22:38:01,015 DEBUG    copying supp file openalex_coverage_by_crossref_type.html
+2021-12-07 22:38:01,029 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:01,033 DEBUG    copying supp file overall_coverage.png
+2021-12-07 22:38:01,039 DEBUG    copying supp file overall_coverage.html
+2021-12-07 22:38:01,051 DEBUG    copying supp file 2020_coverage.png
+2021-12-07 22:38:01,055 DEBUG    copying supp file current_coverage.png
+2021-12-07 22:38:01,059 DEBUG    copying supp file current_coverage.html
+2021-12-07 22:38:01,069 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:01,079 DEBUG    copying supp file cr_in_openalex_barline.png
+2021-12-07 22:38:01,166 DEBUG    copying supp file cr_in_openalex_barline.html
+2021-12-07 22:38:01,178 DEBUG  
+2021-12-07 22:38:01,178 DEBUG  computing hash for dict from:
+2021-12-07 22:38:01,178 DEBUG    filter_ext: html
+2021-12-07 22:38:01,179 DEBUG    filter_name: markdown
+2021-12-07 22:38:01,179 DEBUG    template_hash: 30d24daa23d0c83f819c1287c58d4763
+2021-12-07 22:38:01,179 DEBUG  e564a66d32f0a954213ca49db35e9ffe626a40db6ec1e47fbb8ebf423db20d6f
+2021-12-07 22:38:01,179 DEBUG  
+2021-12-07 22:38:02,541 DEBUG  populating work dir C:\Users\Krame117\AppData\Local\Temp\precipy\output_cache\docs\e564a66d32f0a954213ca49db35e9ffe626a40db6ec1e47fbb8ebf423db20d6f
+2021-12-07 22:38:02,675 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:02,678 DEBUG    copying supp file doi_table_data_store.hd5
+2021-12-07 22:38:02,697 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:02,701 DEBUG    copying supp file openalex_table_data_store.hd5
+2021-12-07 22:38:02,713 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:02,717 DEBUG    copying supp file value_add_all_time.png
+2021-12-07 22:38:02,722 DEBUG    copying supp file value_add_all_time.html
+2021-12-07 22:38:02,734 DEBUG    copying supp file value_add_subject_all_time.png
+2021-12-07 22:38:02,737 DEBUG    copying supp file value_add_subject_all_time.html
+2021-12-07 22:38:02,746 DEBUG    copying supp file value_add_crossref_current_2019-21.png
+2021-12-07 22:38:02,763 DEBUG    copying supp file value_add_crossref_current_2019-21.html
+2021-12-07 22:38:02,775 DEBUG    copying supp file value_add_subject_crossref_current_2019-21.png
+2021-12-07 22:38:02,779 DEBUG    copying supp file value_add_subject_crossref_current_2019-21.html
+2021-12-07 22:38:02,790 DEBUG    copying supp file value_add_2020_only.png
+2021-12-07 22:38:02,795 DEBUG    copying supp file value_add_2020_only.html
+2021-12-07 22:38:02,806 DEBUG    copying supp file value_add_subject_2020_only.png
+2021-12-07 22:38:02,810 DEBUG    copying supp file value_add_subject_2020_only.html
+2021-12-07 22:38:02,820 DEBUG    copying supp file summary_doi_metadata_coverage.json
+2021-12-07 22:38:02,826 DEBUG    copying supp file summary_value_add_table.html
+2021-12-07 22:38:02,838 DEBUG    copying supp file abstracts_by_cr_type.png
+2021-12-07 22:38:02,842 DEBUG    copying supp file abstracts_by_cr_type.html
+2021-12-07 22:38:02,857 DEBUG    copying supp file affiliations_by_cr_type.png
+2021-12-07 22:38:02,861 DEBUG    copying supp file affiliations_by_cr_type.html
+2021-12-07 22:38:02,875 DEBUG    copying supp file citations_to_by_cr_type.png
+2021-12-07 22:38:02,878 DEBUG    copying supp file citations_to_by_cr_type.html
+2021-12-07 22:38:02,891 DEBUG    copying supp file references_from_by_cr_type.png
+2021-12-07 22:38:02,896 DEBUG    copying supp file references_from_by_cr_type.html
+2021-12-07 22:38:02,908 DEBUG    copying supp file subjects_by_cr_type.png
+2021-12-07 22:38:02,926 DEBUG    copying supp file subjects_by_cr_type.html
+2021-12-07 22:38:02,944 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_alltime.json
+2021-12-07 22:38:02,948 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_2020.json
+2021-12-07 22:38:02,954 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_current.json
+2021-12-07 22:38:02,958 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:02,962 DEBUG    copying supp file alluvial_all_time.png
+2021-12-07 22:38:02,967 DEBUG    copying supp file alluvial_all_time.html
+2021-12-07 22:38:02,982 DEBUG    copying supp file alluvial_current.png
+2021-12-07 22:38:02,988 DEBUG    copying supp file alluvial_current.html
+2021-12-07 22:38:03,003 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:03,008 DEBUG    copying supp file openalex_coverage_by_crossref_type.png
+2021-12-07 22:38:03,012 DEBUG    copying supp file openalex_coverage_by_crossref_type.html
+2021-12-07 22:38:03,025 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:03,028 DEBUG    copying supp file overall_coverage.png
+2021-12-07 22:38:03,033 DEBUG    copying supp file overall_coverage.html
+2021-12-07 22:38:03,036 DEBUG    copying supp file 2020_coverage.png
+2021-12-07 22:38:03,045 DEBUG    copying supp file current_coverage.png
+2021-12-07 22:38:03,045 DEBUG    copying supp file current_coverage.html
+2021-12-07 22:38:03,055 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:03,055 DEBUG    copying supp file cr_in_openalex_barline.png
+2021-12-07 22:38:03,063 DEBUG    copying supp file cr_in_openalex_barline.html
+2021-12-07 22:38:03,096 DEBUG  
+2021-12-07 22:38:03,096 DEBUG  computing hash for dict from:
+2021-12-07 22:38:03,096 DEBUG    filter_ext: pdf
+2021-12-07 22:38:03,096 DEBUG    filter_name: xhtml2pdf
+2021-12-07 22:38:03,096 DEBUG    template_hash: 30d24daa23d0c83f819c1287c58d4763
+2021-12-07 22:38:03,096 DEBUG  01f0be36d09513dc5a05e8cc12dbd287d380d2ca74635ee8fdfb161aa2308a98
+2021-12-07 22:38:03,096 DEBUG  
+2021-12-07 22:38:10,315 DEBUG  
+2021-12-07 22:38:10,315 DEBUG  ***** PUBLISH
+2021-12-07 22:38:10,315 DEBUG  
+2021-12-07 22:38:10,315 DEBUG  in publish_documents with range key 
+2021-12-07 22:38:10,315 DEBUG  changing dir to C:\Users\Krame117\AppData\Local\Temp\precipy\output_files
+2021-12-07 22:38:10,315 DEBUG    copying file to report_template.md
+2021-12-07 22:38:10,323 DEBUG    copying file to report_template.html
+2021-12-07 22:38:10,325 DEBUG    copying file to report_template.pdf
+2021-12-07 22:38:10,375 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:10,383 DEBUG    copying supp file doi_table_data_store.hd5
+2021-12-07 22:38:10,385 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:10,395 DEBUG    copying supp file openalex_table_data_store.hd5
+2021-12-07 22:38:10,405 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:10,405 DEBUG    copying supp file value_add_all_time.png
+2021-12-07 22:38:10,413 DEBUG    copying supp file value_add_all_time.html
+2021-12-07 22:38:10,425 DEBUG    copying supp file value_add_subject_all_time.png
+2021-12-07 22:38:10,425 DEBUG    copying supp file value_add_subject_all_time.html
+2021-12-07 22:38:10,435 DEBUG    copying supp file value_add_crossref_current_2019-21.png
+2021-12-07 22:38:10,443 DEBUG    copying supp file value_add_crossref_current_2019-21.html
+2021-12-07 22:38:10,456 DEBUG    copying supp file value_add_subject_crossref_current_2019-21.png
+2021-12-07 22:38:10,466 DEBUG    copying supp file value_add_subject_crossref_current_2019-21.html
+2021-12-07 22:38:10,476 DEBUG    copying supp file value_add_2020_only.png
+2021-12-07 22:38:10,476 DEBUG    copying supp file value_add_2020_only.html
+2021-12-07 22:38:10,486 DEBUG    copying supp file value_add_subject_2020_only.png
+2021-12-07 22:38:10,496 DEBUG    copying supp file value_add_subject_2020_only.html
+2021-12-07 22:38:10,506 DEBUG    copying supp file summary_doi_metadata_coverage.json
+2021-12-07 22:38:10,514 DEBUG    copying supp file summary_value_add_table.html
+2021-12-07 22:38:10,524 DEBUG    copying supp file abstracts_by_cr_type.png
+2021-12-07 22:38:10,526 DEBUG    copying supp file abstracts_by_cr_type.html
+2021-12-07 22:38:10,536 DEBUG    copying supp file affiliations_by_cr_type.png
+2021-12-07 22:38:10,536 DEBUG    copying supp file affiliations_by_cr_type.html
+2021-12-07 22:38:10,546 DEBUG    copying supp file citations_to_by_cr_type.png
+2021-12-07 22:38:10,556 DEBUG    copying supp file citations_to_by_cr_type.html
+2021-12-07 22:38:10,566 DEBUG    copying supp file references_from_by_cr_type.png
+2021-12-07 22:38:10,574 DEBUG    copying supp file references_from_by_cr_type.html
+2021-12-07 22:38:10,585 DEBUG    copying supp file subjects_by_cr_type.png
+2021-12-07 22:38:10,587 DEBUG    copying supp file subjects_by_cr_type.html
+2021-12-07 22:38:10,597 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_alltime.json
+2021-12-07 22:38:10,617 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_2020.json
+2021-12-07 22:38:10,627 DEBUG    copying supp file summary_doi_metadata_coverage_by_type_current.json
+2021-12-07 22:38:10,647 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:10,647 DEBUG    copying supp file alluvial_all_time.png
+2021-12-07 22:38:10,657 DEBUG    copying supp file alluvial_all_time.html
+2021-12-07 22:38:10,667 DEBUG    copying supp file alluvial_current.png
+2021-12-07 22:38:10,675 DEBUG    copying supp file alluvial_current.html
+2021-12-07 22:38:10,685 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:10,698 DEBUG    copying supp file openalex_coverage_by_crossref_type.png
+2021-12-07 22:38:10,706 DEBUG    copying supp file openalex_coverage_by_crossref_type.html
+2021-12-07 22:38:10,716 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:10,718 DEBUG    copying supp file overall_coverage.png
+2021-12-07 22:38:10,718 DEBUG    copying supp file overall_coverage.html
+2021-12-07 22:38:10,728 DEBUG    copying supp file 2020_coverage.png
+2021-12-07 22:38:10,748 DEBUG    copying supp file current_coverage.png
+2021-12-07 22:38:10,748 DEBUG    copying supp file current_coverage.html
+2021-12-07 22:38:10,778 DEBUG    copying supp file metadata.pkl
+2021-12-07 22:38:10,786 DEBUG    copying supp file cr_in_openalex_barline.png
+2021-12-07 22:38:10,798 DEBUG    copying supp file cr_in_openalex_barline.html
+2021-12-07 22:38:10,818 DEBUG  copying output to local output directory output_files
+2021-12-07 22:38:10,818 DEBUG    can't remove old output_files

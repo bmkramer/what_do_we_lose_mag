@@ -460,7 +460,7 @@ Crossref coverage in OpenAlex by Pubdate
                 
                     <td text-align=center>8</td>
                 
-                    <td text-align=center>8</td>
+                    <td text-align=center>7</td>
                 
             </tr>
         

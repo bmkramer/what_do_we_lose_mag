@@ -5,14 +5,14 @@ SELECT
   prefix as cr_prefix,
   reference_visibility as cr_ref_visibility
 
-FROM `utrecht-university.crossref_lookup.crossref_member_prefixes_20210618`
+FROM `utrecht-university.crossref_lookup.crossref_member_prefixes_20211207`
 ),
 
 doi_table AS (
 
 SELECT *
 
-FROM `utrecht-university.OpenAlex_intermediate.DOI_table_OpenAlex_20211011` as a
+FROM `utrecht-university.OpenAlex_intermediate.DOI_table_MAG_OpenAlex_20211011` as a
 
 LEFT JOIN doi_prefixes as b
 
