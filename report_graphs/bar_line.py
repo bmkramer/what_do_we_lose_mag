@@ -42,11 +42,11 @@ class BarLine(AbstractObservatoryChart):
             x=self.xdata,
             y=self.linedata,
             mode='lines',
-            name='DOIs in MAG (%)'
+            name='DOIs in OpenAlex (%)'
         ), secondary_y=False)
 
         fig.update_yaxes(title_text="Registered Crossref DOIs", secondary_y=True)
-        fig.update_yaxes(title_text="DOIs in MAG (%)",
+        fig.update_yaxes(title_text="DOIs in OpenAlex (%)",
                          secondary_y=False,
                          range=[0,100])
         # Update template

@@ -1,4 +1,4 @@
-# MAG Metadata Coverage Report
+# OpenAlex Metadata Coverage Report
 #
 # Copyright 2020-21 ######
 #
@@ -104,9 +104,9 @@ def openalex_coverage_table(af: AnalyticsFunction):
         num_dois=pd.NamedAgg(column='num_dois', aggfunc='sum')
     )
 
-    table_data['pc_dois'] = np.round((table_data.num_magids / table_data.num_dois * 100), 1)
+    table_data['pc_dois'] = np.round((table_data.num_openalexids / table_data.num_dois * 100), 1)
 
-    mag_coverage = report_utils.generate_table_data(
+    openalex_coverage = report_utils.generate_table_data(
         f"Coverage of DOIs in OpenAlex - All Time",
         table_data,
         identifier=None,
@@ -138,16 +138,16 @@ def value_add_tables_graphs(af: AnalyticsFunction):
             'dois_with_cr_citations',
             'dois_with_cr_references',
             'dois_with_cr_open_references',
-            'dois_mag_aff_string_but_not_cr',
-            'dois_with_mag_author_id_but_not_cr_orcid',
-            'dois_with_mag_not_cr_abstract',
-            'dois_with_mag_field0',
-            'dois_with_mag_field_not_cr_subject',
-            'dois_with_mag_not_cr_citations',
-            'dois_more_mag_citations',
-            'dois_with_mag_not_cr_references',
-            'dois_more_mag_references',
-            'dois_with_mag_not_cr_open_references'
+            'dois_openalex_aff_string_but_not_cr',
+            'dois_with_openalex_author_id_but_not_cr_orcid',
+            'dois_with_openalex_not_cr_abstract',
+            'dois_with_openalex_field0',
+            'dois_with_openalex_field_not_cr_subject',
+            'dois_with_openalex_not_cr_citations',
+            'dois_more_openalex_citations',
+            'dois_with_openalex_not_cr_references',
+            'dois_more_openalex_references',
+            'dois_with_openalex_not_cr_open_references'
             ]
 
     summary_table = collate_value_add_values(sum_all, cols)
@@ -162,7 +162,7 @@ def value_add_tables_graphs(af: AnalyticsFunction):
                         'Crossref Current 2019-21',
                         '2020 Only']:
         chart = ValueAddBar(df=summary_table[summary_table['Time Period'] == time_period],
-                            categories=['Crossref', 'MAG added value'],
+                            categories=['Crossref', 'OpenAlex added value'],
                             xs=['Affiliations', 'Abstracts', 'Citations to', 'References from'])
         fig = chart.plotly()
         filename = f'value_add_{time_period.lower().replace(" ", "_")}.'
@@ -171,7 +171,7 @@ def value_add_tables_graphs(af: AnalyticsFunction):
         write_plotly_div(af, fig, filename + 'html')
 
         chart = ValueAddBar(df=summary_table[summary_table['Time Period'] == time_period],
-                            categories=['Crossref', 'MAG added value'],
+                            categories=['Crossref', 'OpenAlex added value'],
                             xs=['Subjects'],
                             stackedbar=False)
         fig = chart.plotly()
@@ -188,18 +188,18 @@ def value_add_tables_graphs(af: AnalyticsFunction):
                           'CR Citations to (%)',
                           'CR References from (%)',
                           'CR Open References (%)',
-                          'MAG Added Affiliation String (%)',
-                          'MAG Added Author ID (%)',
-                          'MAG Added Abstract (%)',
-                          'MAG With Level 0 Field (%)',
-                          'MAG Added Subject (%)',
-                          'MAG Added Citations (%)',
-                          'MAG Higher Citation Count (%)',
-                          'MAG Added References (%)',
-                          'MAG Higher Reference Count (%)',
-                          'MAG Added to Open References (%)']
+                          'OpenAlex Added Affiliation String (%)',
+                          'OpenAlex Added Author ID (%)',
+                          'OpenAlex Added Abstract (%)',
+                          'OpenAlex With Level 0 Field (%)',
+                          'OpenAlex Added Subject (%)',
+                          'OpenAlex Added Citations (%)',
+                          'OpenAlex Higher Citation Count (%)',
+                          'OpenAlex Added References (%)',
+                          'OpenAlex Higher Reference Count (%)',
+                          'OpenAlex Added to Open References (%)']
 
-    summary_value_add_table = report_utils.generate_table_data('Metadata Coverage and MAG Value Add for Crossref DOIs',
+    summary_value_add_table = report_utils.generate_table_data('Metadata Coverage and OpenAlex Value Add for Crossref DOIs',
                                                                summary_table,
                                                                columns=['Time Period', 'num_dois'] + [f'pc_{col}' for
                                                                                                       col in cols],
@@ -239,7 +239,7 @@ def value_add_tables_graphs(af: AnalyticsFunction):
     write_plotly_div(af, fig, filename + 'html')
 
     summary_value_add_table = report_utils.generate_table_data(
-        'Metadata Coverage and MAG Value Add by Crossref Type - All Time',
+        'Metadata Coverage and OpenAlex Value Add by Crossref Type - All Time',
         summary_table,
         columns=['cr_type', 'num_dois'] + [f'pc_{col}' for col in cols],
         short_column_names=['Crossref Type'] + short_column_names,
@@ -254,7 +254,7 @@ def value_add_tables_graphs(af: AnalyticsFunction):
     summary_table = collate_value_add_values(sum_2020_by_type, cols)
 
     summary_value_add_table = report_utils.generate_table_data(
-        'Metadata Coverage and MAG Value Add by Crossref Type - 2020 Publications',
+        'Metadata Coverage and OpenAlex Value Add by Crossref Type - 2020 Publications',
         summary_table,
         columns=['cr_type', 'num_dois'] + [f'pc_{col}' for col in cols],
         short_column_names=['Crossref Type'] + short_column_names,
@@ -269,7 +269,7 @@ def value_add_tables_graphs(af: AnalyticsFunction):
     summary_table = collate_value_add_values(sum_current_by_type, cols)
 
     summary_value_add_table = report_utils.generate_table_data(
-        'Metadata Coverage and MAG Value Add by Crossref Type - Current Period',
+        'Metadata Coverage and OpenAlex Value Add by Crossref Type - Current Period',
         summary_table,
         columns=['cr_type', 'num_dois'] + [f'pc_{col}' for col in cols],
         short_column_names=['Crossref Type'] + short_column_names,
@@ -299,7 +299,7 @@ def collate_value_add_values(df: pd.DataFrame,
     return df
 
 
-def mag_coverage_by_cr_type(af: AnalyticsFunction):
+def openalex_coverage_by_cr_type(af: AnalyticsFunction):
     cr_data = load_cache_data(af,
                               function_name=get_doi_table_data,
                               element='doi_categories',
@@ -307,40 +307,40 @@ def mag_coverage_by_cr_type(af: AnalyticsFunction):
 
     cr_total = cr_data.groupby('cr_type').agg(
         num_dois=pd.NamedAgg(column='num_dois', aggfunc='sum'),
-        in_mag=pd.NamedAgg(column='dois_with_mag_id', aggfunc='sum')
+        in_openalex=pd.NamedAgg(column='dois_with_openalex_id', aggfunc='sum')
     )
-    mag_with_type = cr_data[~cr_data.mag_type.isna()].groupby('cr_type').agg(
-        mag_with_type=pd.NamedAgg(column='num_dois', aggfunc='sum')
+    openalex_with_type = cr_data[~cr_data.openalex_type.isna()].groupby('cr_type').agg(
+        openalex_with_type=pd.NamedAgg(column='num_dois', aggfunc='sum')
     )
-    mag_type_is_na = cr_data[cr_data.mag_type.isna()].groupby('cr_type').agg(
-        mag_type_is_na=pd.NamedAgg(column='num_dois', aggfunc='sum')
+    openalex_type_is_na = cr_data[cr_data.openalex_type.isna()].groupby('cr_type').agg(
+        openalex_type_is_na=pd.NamedAgg(column='num_dois', aggfunc='sum')
     )
 
-    figdata = cr_total.join(mag_with_type).join(mag_type_is_na)
-    figdata['not_in_mag'] = figdata.num_dois - figdata.in_mag
-    # MAG Type is also na where there it is not in MAG at all
-    figdata['mag_without_type'] = figdata.mag_type_is_na - figdata.not_in_mag
-    figdata = collate_value_add_values(figdata, ['mag_with_type',
-                                                 'mag_without_type',
-                                                 'not_in_mag'])
+    figdata = cr_total.join(openalex_with_type).join(openalex_type_is_na)
+    figdata['not_in_openalex'] = figdata.num_dois - figdata.in_openalex
+    # OpenAlex Type is also na where there it is not in OpenAlex at all
+    figdata['openalex_without_type'] = figdata.openalex_type_is_na - figdata.not_in_openalex
+    figdata = collate_value_add_values(figdata, ['openalex_with_type',
+                                                 'openalex_without_type',
+                                                 'not_in_openalex'])
     figdata.reset_index(inplace=True)
 
     chart = ValueAddByCrossrefTypeHorizontal(df=figdata,
-                                             categories=['in MAG with Document Type',
-                                                         'in MAG without Document Type',
-                                                         'Not in MAG'],
+                                             categories=['in OpenAlex with Document Type',
+                                                         'in OpenAlex without Document Type',
+                                                         'Not in OpenAlex'],
                                              metadata_element='dummy',
-                                             ys={'in MAG with Document Type': {'dummy': 'pc_mag_with_type'},
-                                                 'in MAG without Document Type': {'dummy': 'pc_mag_without_type'},
-                                                 'Not in MAG': {'dummy': 'pc_not_in_mag'}
+                                             ys={'in OpenAlex with Document Type': {'dummy': 'pc_openalex_with_type'},
+                                                 'in OpenAlex without Document Type': {'dummy': 'pc_openalex_without_type'},
+                                                 'Not in OpenAlex': {'dummy': 'pc_not_in_openalex'}
                                                  }
                                              )
 
     # Modify the bar colors here
     fig = chart.plotly(palette=['#F6671E', '#FAA77C', '#CCCCCC'])
-    fig.write_image('mag_coverage_by_crossref_type.png')
-    af.add_existing_file('mag_coverage_by_crossref_type.png')
-    write_plotly_div(af, fig, 'mag_coverage_by_crossref_type.html')
+    fig.write_image('openalex_coverage_by_crossref_type.png')
+    af.add_existing_file('openalex_coverage_by_crossref_type.png')
+    write_plotly_div(af, fig, 'openalex_coverage_by_crossref_type.html')
 
 
 def alluvial_graph(af: AnalyticsFunction):
@@ -351,13 +351,13 @@ def alluvial_graph(af: AnalyticsFunction):
     cr_data_with_nulls = cr_data.replace(to_replace={'cr_type': {
         None: 'no assigned Crossref Type'
     },
-        'mag_type': {
-            None: 'no assigned MAG Type'
+        'openalex_type': {
+            None: 'no assigned OpenAlex Type'
         }
     }
     )
 
-    figdata = cr_data_with_nulls.groupby(['cr_type', 'mag_type']).agg(
+    figdata = cr_data_with_nulls.groupby(['cr_type', 'openalex_type']).agg(
         num_dois=pd.NamedAgg(column='num_dois', aggfunc='sum')
     )
 
@@ -365,17 +365,17 @@ def alluvial_graph(af: AnalyticsFunction):
                 'book', 'journal-issue', 'reference-entry', 'posted-content', 'report',
                 'monograph', 'component', 'proceedings', 'report-series', 'book-section',
                 'book-part', 'standard', 'book-track', 'other', 'no assigned Crossref Type']
-    mag_order = ['Journal', 'BookChapter', 'Conference', 'Repository', 'Book', 'Patent',
-                 'Thesis', 'Dataset', 'no assigned MAG Type']
+    openalex_order = ['Journal', 'BookChapter', 'Conference', 'Repository', 'Book', 'Patent',
+                 'Thesis', 'Dataset', 'no assigned OpenAlex Type']
 
     figdata.reset_index(inplace=True)
     figdata['cr_type'] = pd.Categorical(figdata.cr_type, categories=cr_order)
-    figdata['mag_type'] = pd.Categorical(figdata.mag_type, categories=mag_order)
-    figdata.sort_values(['cr_type', 'mag_type'], inplace=True)
+    figdata['openalex_type'] = pd.Categorical(figdata.openalex_type, categories=openalex_order)
+    figdata.sort_values(['cr_type', 'openalex_type'], inplace=True)
 
     plot = Alluvial(df=figdata,
                     from_col_name='cr_type',
-                    to_col_name='mag_type',
+                    to_col_name='openalex_type',
                     flow_values_col='num_dois')
 
     plot.process_data()
@@ -384,18 +384,18 @@ def alluvial_graph(af: AnalyticsFunction):
     af.add_existing_file('alluvial_all_time.png')
     write_plotly_div(af, fig, 'alluvial_all_time.html')
 
-    figdata = cr_data_with_nulls[cr_data.published_year.isin(CURRENT)].groupby(['cr_type', 'mag_type']).agg(
+    figdata = cr_data_with_nulls[cr_data.published_year.isin(CURRENT)].groupby(['cr_type', 'openalex_type']).agg(
         num_dois=pd.NamedAgg(column='num_dois', aggfunc='sum')
     )
 
     figdata.reset_index(inplace=True)
     figdata['cr_type'] = pd.Categorical(figdata.cr_type, categories=cr_order)
-    figdata['mag_type'] = pd.Categorical(figdata.mag_type, categories=mag_order)
-    figdata.sort_values(['cr_type', 'mag_type'], inplace=True)
+    figdata['openalex_type'] = pd.Categorical(figdata.openalex_type, categories=openalex_order)
+    figdata.sort_values(['cr_type', 'openalex_type'], inplace=True)
 
     plot = Alluvial(df=figdata,
                     from_col_name='cr_type',
-                    to_col_name='mag_type',
+                    to_col_name='openalex_type',
                     flow_values_col='num_dois')
 
     plot.process_data()
@@ -406,25 +406,25 @@ def alluvial_graph(af: AnalyticsFunction):
     write_plotly_div(af, fig, 'alluvial_current.html')
 
 
-def calculate_overall_coverage(mag_data: pd.DataFrame,
+def calculate_overall_coverage(openalex_data: pd.DataFrame,
                                cr_data: pd.DataFrame) -> dict:
     cr_total = cr_data.num_dois.sum()
-    cr_in_mag = cr_data.dois_with_mag_id.sum()
-    mag_total = mag_data.num_objects.sum()
-    mag_with_doi = mag_data.num_dois.sum()
-    mag_dois_not_cr = mag_with_doi - cr_in_mag
-    total_objects = cr_total + (mag_total - mag_with_doi) + mag_dois_not_cr
-    total_dois = cr_total + mag_dois_not_cr
+    cr_in_openalex = cr_data.dois_with_openalex_id.sum()
+    openalex_total = openalex_data.num_objects.sum()
+    openalex_with_doi = openalex_data.num_dois.sum()
+    openalex_dois_not_cr = openalex_with_doi - cr_in_openalex
+    total_objects = cr_total + (openalex_total - openalex_with_doi) + openalex_dois_not_cr
+    total_dois = cr_total + openalex_dois_not_cr
     objects_wo_dois = total_objects - total_dois
 
     return dict(
         total_objects=total_objects,
         total_dois=total_dois,
         objects_wo_dois=objects_wo_dois,
-        mag_no_doi=mag_total - mag_with_doi,
-        mag_dois_not_cr=mag_dois_not_cr,
-        cr_in_mag=cr_in_mag,
-        cr_not_in_mag=cr_total - cr_in_mag,
+        openalex_no_doi=openalex_total - openalex_with_doi,
+        openalex_dois_not_cr=openalex_dois_not_cr,
+        cr_in_openalex=cr_in_openalex,
+        cr_not_in_openalex=cr_total - cr_in_openalex,
         cr_total=cr_total
     )
 
@@ -439,16 +439,16 @@ def overall_comparison(af: AnalyticsFunction):
     cr_sum_2020 = cr_data[cr_data.published_year == 2020].sum(axis=0)
     cr_sum_current = cr_data[cr_data.published_year.isin(CURRENT)].sum(axis=0)
 
-    mag_data = load_cache_data(af,
+    openalex_data = load_cache_data(af,
                                function_name=get_openalex_table_data,
                                element='openalex_categories',
                                filename=OPENALEX_DATA_FILENAME)
 
-    mag_sum_all = mag_data.sum(axis=0)
-    mag_sum_2020 = mag_data[mag_data.Year == 2020].sum(axis=0)
-    mag_sum_current = mag_data[mag_data.Year.isin(CURRENT)].sum(axis=0)
+    openalex_sum_all = openalex_data.sum(axis=0)
+    openalex_sum_2020 = openalex_data[openalex_data.Year == 2020].sum(axis=0)
+    openalex_sum_current = openalex_data[openalex_data.Year.isin(CURRENT)].sum(axis=0)
 
-    figdata_all = calculate_overall_coverage(mag_sum_all, cr_sum_all)
+    figdata_all = calculate_overall_coverage(openalex_sum_all, cr_sum_all)
     chart = OverallCoverage(figdata_all,
                             line_offset=0.06)
     # line_offset=0.08)
@@ -457,7 +457,7 @@ def overall_comparison(af: AnalyticsFunction):
     af.add_existing_file('overall_coverage.png')
     write_plotly_div(af, fig, 'overall_coverage.html')
 
-    figdata_2020 = calculate_overall_coverage(mag_sum_2020, cr_sum_2020)
+    figdata_2020 = calculate_overall_coverage(openalex_sum_2020, cr_sum_2020)
     chart = OverallCoverage(figdata_2020,
                             line_offset=0.06)
     # line_offset=0.08)
@@ -465,7 +465,7 @@ def overall_comparison(af: AnalyticsFunction):
     fig.write_image('2020_coverage.png')
     af.add_existing_file('2020_coverage.png')
 
-    figdata_current = calculate_overall_coverage(mag_sum_current, cr_sum_current)
+    figdata_current = calculate_overall_coverage(openalex_sum_current, cr_sum_current)
     chart = OverallCoverage(figdata_current,
                             line_offset=0.06)
     # line_offset=0.08)
@@ -475,13 +475,13 @@ def overall_comparison(af: AnalyticsFunction):
     write_plotly_div(af, fig, 'current_coverage.html')
 
 
-def mag_in_crossref_by_pubdate(af):
+def openalex_in_crossref_by_pubdate(af):
     cr_data = load_cache_data(af,
                               function_name=get_doi_table_data,
                               element='doi_categories',
                               filename=CR_DATA_FILENAME)
 
-    mag_data = load_cache_data(af,
+    openalex_data = load_cache_data(af,
                                function_name=get_openalex_table_data,
                                element='openalex_categories',
                                filename=OPENALEX_DATA_FILENAME)
@@ -490,21 +490,21 @@ def mag_in_crossref_by_pubdate(af):
 
     figdata = pd.DataFrame(index=year_range,
                            data=[calculate_overall_coverage(
-                               mag_data=mag_data[mag_data.Year == year],
+                               openalex_data=openalex_data[openalex_data.Year == year],
                                cr_data=cr_data[cr_data.published_year == year])
                                for year in year_range])
 
-    figdata['pc_mag_in_cr'] = figdata.cr_in_mag / figdata.cr_total * 100
+    figdata['pc_openalex_in_cr'] = figdata.cr_in_openalex / figdata.cr_total * 100
 
     chart = BarLine(xdata=figdata.index,
                     bardata=figdata.cr_total,
-                    linedata=figdata.pc_mag_in_cr)
+                    linedata=figdata.pc_openalex_in_cr)
 
     fig = chart.plotly()
 
-    fig.write_image('cr_in_mag_barline.png')
-    af.add_existing_file('cr_in_mag_barline.png')
-    write_plotly_div(af, fig, 'cr_in_mag_barline.html')
+    fig.write_image('cr_in_openalex_barline.png')
+    af.add_existing_file('cr_in_openalex_barline.png')
+    write_plotly_div(af, fig, 'cr_in_openalex_barline.html')
 
 
 def write_plotly_div(af: AnalyticsFunction,

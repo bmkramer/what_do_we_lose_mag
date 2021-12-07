@@ -33,7 +33,7 @@
       }
     ],
     [
-      "mag_coverage_by_cr_type",
+      "openalex_coverage_by_cr_type",
       {
         "depends": ["get_doi_table_data"]
       }
@@ -46,7 +46,7 @@
     ]
     ,
     [
-      "mag_in_crossref_by_pubdate",
+      "openalex_in_crossref_by_pubdate",
       {
         "depends": ["get_doi_table_data", "get_openalex_table_data"]
       }

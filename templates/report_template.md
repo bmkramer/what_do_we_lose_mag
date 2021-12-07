@@ -27,7 +27,7 @@ Some text goes here
 
 ![](overall_coverage.png)
 
-Overall coverage of DOIs in MAG and Crossref metadata
+Overall coverage of DOIs in OpenAlex and Crossref metadata
 
 ![](2020_coverage.png)
 
@@ -41,23 +41,23 @@ Coverage for "current" outputs (published 2019-21)
 
 Alluvial Current
 
-![](cr_in_mag_barline.png)
+![](cr_in_openalex_barline.png)
 
-![](mag_coverage_by_crossref_type.png)
+![](openalex_coverage_by_crossref_type.png)
 
-MAG Value Add All Time
+OpenAlex Value Add All Time
 
 ![](value_add_all_time.png)
 
 ![](value_add_subject_all_time.png)
 
-MAG Value Add "Current" (2019-21)
+OpenAlex Value Add "Current" (2019-21)
 
 ![](value_add_crossref_current_2019-21.png)
 
 ![](value_add_subject_crossref_current_2019-21.png)
 
-MAG Value Add 2020
+OpenAlex Value Add 2020
 
 ![](value_add_2020_only.png)
 
@@ -85,7 +85,7 @@ Subjects
 
 ![](subjects_by_cr_type.png)
 
-Crossref coverage in MAG by Pubdate
+Crossref coverage in OpenAlex by Pubdate
 
 <!-- switch to landscape page template -->
 <pdf:nexttemplate name="landscape-report">

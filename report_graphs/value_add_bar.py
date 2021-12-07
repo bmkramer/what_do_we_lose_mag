@@ -31,12 +31,12 @@ class ValueAddBar(AbstractObservatoryChart):
                     'References from': 'pc_dois_with_cr_references',
                     'Subjects': 'pc_dois_with_cr_subjects'
                 },
-                'MAG added value': {
-                    'Affiliations': 'pc_dois_mag_aff_string_but_not_cr',
-                    'Abstracts': 'pc_dois_with_mag_not_cr_abstract',
-                    'Citations to': 'pc_dois_with_mag_not_cr_citations',
-                    'References from': 'pc_dois_with_mag_not_cr_references',
-                    'Subjects': 'pc_dois_with_mag_field0'
+                'OpenAlex added value': {
+                    'Affiliations': 'pc_dois_openalex_aff_string_but_not_cr',
+                    'Abstracts': 'pc_dois_with_openalex_not_cr_abstract',
+                    'Citations to': 'pc_dois_with_openalex_not_cr_citations',
+                    'References from': 'pc_dois_with_openalex_not_cr_references',
+                    'Subjects': 'pc_dois_with_openalex_field0'
                 }
             }
 
@@ -73,7 +73,7 @@ class ValueAddByCrossrefType(AbstractObservatoryChart):
                  df: pd.DataFrame,
                  metadata_element: str,
                  ys=None,
-                 categories=['Crossref', 'MAG added value'],
+                 categories=['Crossref', 'OpenAlex added value'],
                  stackedbar=True
                  ):
         self.df = df
@@ -92,12 +92,12 @@ class ValueAddByCrossrefType(AbstractObservatoryChart):
                     'References from': 'pc_dois_with_cr_references',
                     'Subjects': 'pc_dois_with_cr_subjects'
                 },
-                'MAG added value': {
-                    'Affiliations': 'pc_dois_mag_aff_string_but_not_cr',
-                    'Abstracts': 'pc_dois_with_mag_not_cr_abstract',
-                    'Citations to': 'pc_dois_with_mag_not_cr_citations',
-                    'References from': 'pc_dois_with_mag_not_cr_references',
-                    'Subjects': 'pc_dois_with_mag_field0'
+                'OpenAlex added value': {
+                    'Affiliations': 'pc_dois_openalex_aff_string_but_not_cr',
+                    'Abstracts': 'pc_dois_with_openalex_not_cr_abstract',
+                    'Citations to': 'pc_dois_with_openalex_not_cr_citations',
+                    'References from': 'pc_dois_with_openalex_not_cr_references',
+                    'Subjects': 'pc_dois_with_openalex_field0'
                 }
             }
 
@@ -142,7 +142,7 @@ class ValueAddByCrossrefTypeHorizontal(AbstractObservatoryChart):
                  df: pd.DataFrame,
                  metadata_element: str,
                  ys=None,
-                 categories=['Crossref', 'MAG added value'],
+                 categories=['Crossref', 'OpenAlex added value'],
                  stackedbar=True
                  ):
         self.df = df
@@ -161,12 +161,12 @@ class ValueAddByCrossrefTypeHorizontal(AbstractObservatoryChart):
                     'References from': 'pc_dois_with_cr_references',
                     'Subjects': 'pc_dois_with_cr_subjects'
                 },
-                'MAG added value': {
-                    'Affiliations': 'pc_dois_mag_aff_string_but_not_cr',
-                    'Abstracts': 'pc_dois_with_mag_not_cr_abstract',
-                    'Citations to': 'pc_dois_with_mag_not_cr_citations',
-                    'References from': 'pc_dois_with_mag_not_cr_references',
-                    'Subjects': 'pc_dois_with_mag_field0'
+                'OpenAlex added value': {
+                    'Affiliations': 'pc_dois_openalex_aff_string_but_not_cr',
+                    'Abstracts': 'pc_dois_with_openalex_not_cr_abstract',
+                    'Citations to': 'pc_dois_with_openalex_not_cr_citations',
+                    'References from': 'pc_dois_with_openalex_not_cr_references',
+                    'Subjects': 'pc_dois_with_openalex_field0'
                 }
             }
 

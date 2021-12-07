@@ -40,7 +40,7 @@ class OverallCoverage(AbstractObservatoryChart):
                      fillcolor='rgba(0, 180, 0, 0.2)'#,
                      #line_offset=self.line_offset
                      ),
-                dict(y0=self.datadict['cr_not_in_mag'],
+                dict(y0=self.datadict['cr_not_in_openalex'],
                      y1=self.datadict['total_objects'],
                      line=dict(color='darkblue'),
                      fillcolor='rgba(0, 0, 180, 0.2)',
@@ -80,14 +80,14 @@ class OverallCoverage(AbstractObservatoryChart):
             text=[
                 f"with DOIs",# {int(self.datadict['total_dois'] / 1e6)}M",
                 f"without DOIs",# {int(self.datadict['objects_wo_dois'] / 1e6)}M",
-                f"{round((self.datadict['cr_not_in_mag'] / 1e6),1)} M",
-                f"{round((self.datadict['cr_in_mag'] / 1e6),1)} M",
-                f"{round((self.datadict['mag_dois_not_cr'] / 1e6),1)} M",
-                f"{round((self.datadict['mag_no_doi'] / 1e6),1)} M",
+                f"{round((self.datadict['cr_not_in_openalex'] / 1e6),1)} M",
+                f"{round((self.datadict['cr_in_openalex'] / 1e6),1)} M",
+                f"{round((self.datadict['openalex_dois_not_cr'] / 1e6),1)} M",
+                f"{round((self.datadict['openalex_no_doi'] / 1e6),1)} M",
                 f"- Crossref only",
-                f"- Crossref and MAG",
-                f"- non-Crossref DOIs in MAG",
-                f"- MAG only"
+                f"- Crossref and OpenAlex",
+                f"- non-Crossref DOIs in OpenAlex",
+                f"- OpenAlex only"
             ],
             textposition=[
                 *(["middle center"] * 2),
