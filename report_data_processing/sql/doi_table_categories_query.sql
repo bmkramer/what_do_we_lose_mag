@@ -12,7 +12,7 @@ doi_table AS (
 
 SELECT *
 
-FROM `academic-observatory.observatory.doi20211002` as a
+FROM `utrecht-university.OpenAlex_intermediate.DOI_table_OpenAlex_20211011` as a
 
 LEFT JOIN doi_prefixes as b
 
